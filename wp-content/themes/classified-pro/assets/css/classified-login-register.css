@@ -1,0 +1,96 @@
+#classified-login-register .modal-body {
+    padding: 20px;
+}
+.classified-login-container h5,
+.classified-register-container h5
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: var(--primary-font);
+    color: var(--heading-color);
+    margin: 0 0 10px 0;
+}
+.classified-login-container > p,
+.classified-register-container>  p
+{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--primary-font);
+    color: var(--descprition-color);
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid var(--input-border-color);
+    padding: 0 0 20px 0;
+    letter-spacing: 0.5px;
+}
+.classified-login-container p span,
+.classified-register-container p span
+{
+    color: var(--primary-color);
+    font-size: 13px;
+    line-height: 15px;
+    cursor: pointer;
+}
+.classified-login-container .classified-login-form-container .cwp-frontend-form-container,
+.classified-register-container .classified-register-form-container .cwp-frontend-form-container
+{
+    padding: 0;
+}
+.classified-login-container .classified-login-form-container .cwp-frontend-form-container > h2,
+.classified-register-container .classified-register-form-container .cwp-frontend-section-container > h2
+{
+    display: none;
+}
+.classified-login-container .cwp-frontend-form-container .cwp-frontend-section-container .cwp-frontend-section-content-container,
+.classified-register-container .cwp-frontend-form-container .cwp-frontend-section-container .cwp-frontend-section-content-container
+{
+    padding: 0;
+    border: 0;
+    margin: 0 0 0 0;
+}
+.classified-login-container .cwp-frontend-form-container [type=submit],
+.classified-register-container .cwp-frontend-form-container .submit-btn
+{
+    border-radius: var(--border-radius) !important;
+    padding: 12px 30px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: var(--primary-font);
+}
+.classified-login-container .classified-frontend-form-container .cwp-frontend-section-container,
+.classified-register-container .classified-frontend-form-container .cwp-frontend-section-container
+{
+    margin-bottom: 0;
+}
+.classified-login-container .cwp-frontend-form-container .submit-btn:hover,
+.classified-register-container .cwp-frontend-form-container .submit-btn:hover
+{
+    background: var(--primary-font-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

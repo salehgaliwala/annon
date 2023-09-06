@@ -1,0 +1,45 @@
+.modal-body .form-group:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+.modal-body .form-group label {
+    display: block;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: var(--primary-font);
+    color: var(--label-font-color);
+}
+.modal-body .form-group textarea {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--input-radius);
+    padding: 8px 12px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    height: 40px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: var(--primary-font);
+    color: var(--label-font-color);
+}
+.modal-body .form-group textarea {
+    resize: none;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

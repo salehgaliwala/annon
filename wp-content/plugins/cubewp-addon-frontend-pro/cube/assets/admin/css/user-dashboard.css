@@ -1,0 +1,282 @@
+* {
+	box-sizing: border-box;
+}
+.notice {
+	display: none;
+}
+#wpcontent {
+	padding: 0 0 0 0;
+}
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.wp-core-ui .button .dashicons,
+.wp-core-ui .button-secondary .dashicons {
+	margin: 0 5px 0 0;
+}
+.cubewp-dashboard-builder {
+	align-items: flex-start;
+	display: flex;
+	justify-content: stretch;
+	padding: 50px 0;
+}
+.cubewp-dashboard-builder .cubewp-dashboard-builder-area {
+	padding: 0 0 0 0;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.cubewp-dashboard-builder .cubewp-dashboard-builder-area .cubewp-dashboard-builder-area-topbar {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 0 15px 0;
+}
+.cubewp-dashboard-builder .cubewp-dashboard-builder-area .cubewp-dashboard-builder-area-content {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px #00000012;
+}
+.cubewp-dashboard-builder .cubewp-dashboard-builder-area .cubewp-dashboard-builder-area-content .cubewp-dashboard-builder-area-content-heading {
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: stretch;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.cubewp-dashboard-builder .cubewp-dashboard-builder-area .cubewp-dashboard-builder-area-content .cubewp-dashboard-builder-area-content-heading p {
+	color: #5f5f5f;
+	font-size: 14px;
+	line-height: 19px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cubewp-user-dashboard-tab-sorter {
+	width: calc((100% / 7) - 80px);
+}
+.cubewp-user-dashboard-tab-icon {
+	width: calc(100% / 7);
+}
+.cubewp-user-dashboard-tab-title {
+	width: calc((100% / 7) + 30px);
+}
+.cubewp-user-dashboard-tab-user-role {
+	width: calc((100% / 7) + 30px);
+}
+.cubewp-user-dashboard-tab-content-type {
+	width: calc((100% / 7) + 25px);
+}
+.cubewp-user-dashboard-tab-id {
+	user-select: all;
+	width: calc((100% / 7) + 45px);
+}
+.cubewp-user-dashboard-tab-actions {
+	text-align: right;
+	width: calc((100% / 7) - 50px);
+}
+.cubewp-user-dashboard-tab-sorter img {
+	cursor: move;
+	object-fit: contain;
+	object-position: 0 3px;
+	user-select: none;
+}
+.cubewp-user-dashboard-tab-actions span {
+	color: #32373c;
+	cursor: pointer;
+	margin: 0 5px;
+}
+.cubewp-user-dashboard-tab {
+    background-color: #fdfdfd;
+    margin: 0 20px 20px 20px;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info {
+	align-items: center;
+	border: 1px dashed #bfbfbf;
+	border-radius: 3px;
+	display: flex;
+	justify-content: stretch;
+	padding: 18px 0;
+    cursor: pointer;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info.have_error {
+	border-color: #ff0000;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info p {
+	color: #32373c;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.65px;
+	line-height: 19px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info p.cubewp-user-dashboard-tab-sorter {
+	display: inline-flex;
+	align-items: center;
+    justify-content: space-between;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info p.cubewp-user-dashboard-tab-sorter svg{
+	cursor: move;
+}
+span.field-counter {
+    padding: 4px 12px;
+    border: 1px solid #ccd0d4;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cubewp-user-dashboard-tab.active-tab {
+	background-color: #f5f9fc;
+}
+.cubewp-user-dashboard-tab.active-tab .cubewp-user-dashboard-tab-info {
+	border-color: #0073af;
+}
+.cubewp-user-dashboard-tab.active-tab .cubewp-user-dashboard-tab-action-toggler {
+	transform: rotate(180deg);
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form {
+	padding: 25px 25px 5px;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0 0 20px 0;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field label {
+	color: #1a2432;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	margin: 0 0 0 0;
+	width: 300px;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-select {
+	width: calc(100% - 302px);
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field input,
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field textarea,
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field select {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px #00000012;
+	width: calc(100% - 302px);
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .description,
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-error-message {
+	margin: 0 0 0 auto;
+	width: calc(100% - 302px);
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-error-message {
+	margin: 5px 0 0 auto;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-error-message p {
+	background: #ff000011;
+	border-radius: 0;
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 0 0 0 0;
+	padding: 3px 7px;
+}
+.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field select {
+	max-width: 100%;
+	width: 100%;
+}
+.cubewp-dashboard-icons {
+	display: flex;
+	margin: 5px 0 0 auto;
+	width: calc(100% - 302px);
+}
+.cubewp-dashboard-icons span {
+	border: 1px solid #2271b1;
+	border-radius: 4px;
+	color: #2271b1;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 5px 0 0;
+	transition: 300ms;
+	width: 30px;
+}
+.cubewp-dashboard-icons span:hover {
+	background-color: #2271b1;
+	color: #ffffff;
+}
+
+#cubewp-title-bar {
+	align-items: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	display: flex;
+	justify-content: space-between;
+	padding: 11px 25px;
+}
+#cubewp-title-bar h1 {
+	color: #23282d;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 32px;
+	margin: 0 0 0 0;
+}
+.shoftcode-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shoftcode-area .cwpform-shortcode {
+	margin: 0 15px 0 0;
+}
+.shoftcode-area .cwpform-shortcode .inner.copy-to-clipboard {
+	user-select: all;
+	cursor: pointer;
+}
+.shoftcode-area .cwpform-shortcode .inner {
+	background: #e0f2c8;
+	border: 1px solid #90c154;
+	padding: 0 15px;
+	border-radius: 4px;
+	color: #1a2432;
+	font-size: 16px;
+	line-height: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shoftcode-area .cwpform-shortcode .inner svg {
+	margin: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 1370px) {
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field label {
+		width: 130px;
+	}
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field input,
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field textarea,
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field select,
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-select,
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .description,
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-form .cubewp-user-dashboard-tab-form-field .cwp-error-message,
+	.cubewp-dashboard-icons {
+		width: calc(100% - 132px);
+	}
+	.cubewp-user-dashboard-tab .cubewp-user-dashboard-tab-info p {
+		white-space: normal;
+	}
+}

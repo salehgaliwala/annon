@@ -1,0 +1,1913 @@
+.classified-widget-shortcode {
+    margin: 0 0 50px 0;
+}
+
+.classified-widget-shortcode .classified-widget-shortcode-heading {
+    margin: 50px 0;
+}
+
+/*Classified Featured Items*/
+.classified-featured-items-container .classified-featured-items {
+    border-radius: var(--input-radius);
+    overflow: hidden;
+    position: relative;
+}
+
+.classified-featured-items-container .classified-featured-items:not(.slick-initialized) .classified-featured-item {
+    min-width: 100%;
+}
+
+.classified-featured-items-container .classified-featured-items .classified-featured-item {
+    padding: 45px 35px;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-details h1 {
+    color: currentColor;
+    letter-spacing: 1px;
+    margin: 0 0 15px 0;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-details h2 {
+    color: currentColor;
+    letter-spacing: 1px;
+    margin: 0 0 15px 0;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-details p {
+    color: currentColor;
+    letter-spacing: 0.36px;
+    margin: 0 0 30px 0;
+    max-height: 75px;
+    overflow: hidden;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-details button {
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-vectors > svg:nth-child(1) {
+    left: -45px;
+    position: absolute;
+    top: -12px;
+    z-index: 1;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-vectors > svg:nth-child(2) {
+    left: calc((33px / 2) - 33px);
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-vectors > svg:nth-child(3) {
+    bottom: calc((33px / 2) - 33px);
+    position: absolute;
+    right: calc((33px / 2) - 33px);
+    z-index: 1;
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-vectors > svg:nth-child(4) {
+    bottom: -25px;
+    left: -35px;
+    position: absolute;
+    z-index: 0;
+}
+
+.classified-featured-items-container .classified-featured-item.slick-active .classified-featured-item-vectors > svg:nth-child(1) {
+    animation: slideRight linear calc(var(--transition) * 3);
+    animation-delay: var(--transition);
+}
+
+.classified-featured-items-container .classified-featured-item.slick-active .classified-featured-item-vectors > svg:nth-child(3) {
+    animation: slideUp linear calc(var(--transition) * 3);
+    animation-delay: var(--transition);
+}
+
+@keyframes slideRight {
+    from {
+        left: -75px;
+    }
+    to {
+        left: -45px;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        bottom: calc((33px / 2) - 50px);
+        right: calc((33px / 2) - 45px);
+    }
+    to {
+        bottom: calc((33px / 2) - 33px);
+        right: calc((33px / 2) - 33px);
+    }
+}
+
+.classified-featured-items-container .classified-featured-item .classified-featured-item-thumb {
+    border-radius: var(--input-radius);
+    height: 270px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}
+
+.classified-featured-items-container .classified-featured-items:not(.slick-initialized) {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.classified-featured-items-container .classified-featured-item-sidebar img {
+    border-radius: var(--input-radius);
+    height: 280px;
+    margin: 0 0 10px 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.classified-featured-items-container .classified-featured-item-sidebar h3 {
+    margin: 0 0 5px 0;
+}
+
+.classified-featured-items-container .classified-featured-item-sidebar p {
+    color: var(--heading-color);
+    width: 100%;
+}
+
+.classified-featured-items-container .classified-featured-items .classified-featured-items-slider-progress {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.classified-featured-items-container .classified-featured-items .classified-featured-items-slider-progress .classified-featured-items-progress-bar {
+    display: flex;
+    height: 5px;
+}
+
+/* Classified Categories Style = Grids with children cats */
+.classified-categories-container.grid-child .classified-category-card {
+    background-color: var(--white-700);
+    border: 1px solid var(---primary-border-color);
+    border-radius: var(--border-radius-lg);
+    margin: 25px 0 30px 0;
+    min-height: calc(100% - 55px);
+    padding: 25px;
+    transition: var(--transition);
+}
+
+.classified-categories-container.grid-child .classified-category-card .classified-category-icon {
+    align-items: center;
+    background-color: var(--white-700);
+    border-radius: var(--border-radius);
+    box-shadow: 0 13px 23px var(--deaf-font-color-600);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: -50px 0 20px 0;
+    transition: var(--transition);
+    width: 50px;
+}
+
+.classified-categories-container.grid-child .classified-category-card .classified-category-icon svg,
+.classified-categories-container.grid-child .classified-category-card .classified-category-icon i {
+    color: currentColor;
+    fill: currentColor;
+    height: 20px;
+    transition: var(--transition);
+    width: 20px;
+    font-size: 20px;
+}
+
+.classified-categories-container.grid-child .classified-category-card:hover {
+    border-color: transparent;
+    box-shadow: 0 14px 32px #b5c2de29;
+}
+
+.classified-categories-container.grid-child .classified-category-card:hover .classified-category-icon {
+    background-color: currentColor;
+}
+
+.classified-categories-container.grid-child .classified-category-card:hover .classified-category-icon svg,
+.classified-categories-container.grid-child .classified-category-card:hover .classified-category-icon i {
+    color: var(--white-700);
+}
+
+.classified-categories-container.grid-child .classified-category-card h4 {
+    font-weight: normal;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul.classified-category-card-have-collapse {
+    max-height: 80px;
+    overflow: hidden;
+    transition: max-height var(--transition) ease-in-out;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul.classified-category-card-have-collapse.expand-collapsed {
+    max-height: 300px;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul li {
+    margin: 0 0 0 0;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul li a {
+    line-height: 28px;
+}
+
+.classified-categories-container.grid-child .classified-category-card ul li a:not(:hover) {
+    color: #676E81;
+}
+
+.classified-categories-container.grid-child .classified-category-card .classified-see-more-category {
+    color: var(--grid-text-color);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+.classified-categories-container.grid-child .classified-category-card .classified-see-more-category:not(:hover) {
+    text-decoration: underline;
+}
+
+/* Classified Categories Style = Grids with post count */
+.classified-categories-container.grid-ads-count .classified-category-card {
+    background-color: var(--white-700);
+    box-shadow: 0 14px 32px #B5C2DE29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 0 40px;
+    margin: 0 0 24px;
+    border-radius: var(--input-radius);
+    position: relative;
+    transition: var(--transition);
+}
+
+.classified-categories-container.grid-ads-count .classified-category-card:hover {
+    box-shadow: 0 14px 32px #090B1029;
+}
+
+.classified-categories-container.grid-ads-count .classified-category-card .classified-category-icon i {
+    font-size: 27px;
+    line-height: 30px;
+    margin: 0 0 15px;
+}
+
+.classified-categories-container.grid-ads-count .classified-category-card h4 {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: normal;
+    margin: 0 0 5px;
+    color: var(--grid-text-color);
+}
+
+.classified-categories-container.grid-ads-count .classified-category-card .classified-category-posts-count {
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0 0;
+    color: #B5B5B5;
+}
+
+/* Classified Categories Style = Grids with background image */
+.classified-categories-container.grid-bg-image .classified-category-card {
+    height: 242px;
+    border-radius: var(--input-radius);
+    overflow: hidden;
+    margin: 0 0 24px 0;
+    position: relative;
+}
+
+.classified-categories-container.grid-bg-image .classified-category-card h4 {
+    background-color: #00000088;
+    border-radius: var(--input-radius);
+    display: inline-block;
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-700);
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    padding: 5px 15px;
+    z-index: 1;
+}
+
+.classified-categories-container.grid-bg-image .classified-category-card:hover h4 {
+    background-color: var(--black-700);
+}
+
+.classified-categories-container.grid-bg-image .classified-category-card .classified-category-icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.classified-categories-container.grid-bg-image .classified-category-card .classified-category-icon i {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+}
+
+/* Classified Categories Style = Grids carousal */
+.classified-category-cards {
+    padding: 0 50px;
+}
+
+.classified-category-cards:not(.slick-initialized) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.classified-category-cards .slick-arrow {
+    position: absolute;
+    top: 50%;
+    letter-spacing: 0;
+    color: #C9C9C9;
+    font-size: 24px;
+    line-height: 37px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.classified-category-cards .slick-arrow:hover {
+    color: var(--heading-color);
+}
+
+.classified-category-cards .slick-arrow.carousal-left-control {
+    left: 10px;
+}
+
+.classified-category-cards .slick-arrow.carousal-right-control {
+    right: 10px;
+}
+
+.classified-category-cards .slick-track {
+    padding: 5px 0;
+}
+
+.classified-category-cards .classified-category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: var(--input-radius);
+    transition: var(--transition);
+    width: 125px;
+    height: 125px;
+    position: relative;
+}
+
+.classified-category-cards .classified-category-card:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 4px #00000021;
+}
+
+.classified-category-cards .classified-category-card .classified-category-icon {
+    margin: 0 0 10px 0;
+}
+
+.classified-category-cards .classified-category-card .classified-category-icon i,
+.classified-category-cards .classified-category-card .classified-category-icon svg {
+    font-size: 17px;
+    width: 21px;
+    height: 17px;
+    color: var(--heading-color);
+    transition: var(--transition);
+}
+
+.classified-category-cards .classified-category-card h4 {
+    color: var(--heading-color);
+    font-size: 17px;
+    line-height: 1.3em;
+    font-weight: normal;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.classified-category-cards .classified-category-card:hover h4 {
+    color: var(--primary-color);
+}
+
+.classified-category-cards .classified-category-card:hover .classified-category-icon i,
+.classified-category-cards .classified-category-card:hover .classified-category-icon svg {
+    color: var(--primary-color);
+}
+
+/*Classified Items Promotion Card*/
+.classified-items-container .classified-website-promotion-card {
+    align-items: flex-start;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 30px);
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+    min-height: 300px;
+    overflow: hidden;
+    padding: 25px;
+    position: relative;
+}
+
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-bg {
+    left: 50%;
+    opacity: 0.18;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-bg svg,
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-bg i {
+    fill: currentColor;
+    height: 200px;
+    width: 200px;
+    font-size: 200px;
+}
+
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-icon {
+    align-items: center;
+    background-color: var(--white-200);
+    border-radius: 50%;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 60px;
+}
+
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-icon svg,
+.classified-items-container .classified-website-promotion-card .classified-website-promotion-card-icon i {
+    fill: currentColor;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+}
+
+.classified-items-container .classified-website-promotion-card h5,
+.classified-items-container .classified-website-promotion-card p {
+    color: currentColor;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.classified-items-container .classified-website-promotion-card h5 {
+    margin: auto 0;
+    font-size: 17px;
+}
+
+.classified-items-container .classified-website-promotion-card p {
+    margin: 0 0 auto 0;
+    font-size: 14px;
+}
+
+.classified-layout-style-2 .classified-website-promotion-card {
+    align-items: center;
+    text-align: center;
+    min-height: 260px;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: var(--border-radius-xs);
+}
+
+.classified-layout-style-2 .classified-website-promotion-card p {
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+.classified-layout-style-2 .classified-website-promotion-card h5 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.classified-layout-style-2 .classified-website-promotion-card button {
+    padding: 7px 17px;
+    width: auto !important;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+/*Classified Items Tabs*/
+.classified-items-tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0 0 30px 0;
+    list-style: none;
+    border-bottom: 1px solid var(--input-border-color);
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.classified-items-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.classified-items-tabs .classified-items-tab {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    white-space: nowrap;
+}
+
+.classified-items-tabs .classified-items-tab:first-child .classified-items-tab-btn {
+    font-weight: bold;
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn {
+    padding: 15px 36px;
+    border: none;
+    color: var(--grid-text-color);
+    transition: var(--transition);
+    margin: 0 0 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn i {
+    font-size: 16px;
+    margin: 0 7px 0 0;
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn:hover {
+    color: var(--primary-color);
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn.active {
+    color: var(--primary-color);
+}
+
+.classified-items-tabs .classified-items-tab .classified-items-tab-btn.active:before {
+    background: var(--primary-color);
+}
+
+/*Promotion Banner*/
+.classified-website-promotion-container {
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.classified-website-promotion-container:before {
+    background: currentColor;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.classified-website-promotion-container .classified-website-promotion-bg {
+    border-radius: var(--border-radius-md);
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    user-select: none;
+    width: 100%;
+    z-index: 0;
+}
+
+.classified-website-promotion-container .classified-website-promotion-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 50px 20px 40px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.classified-website-promotion-container .classified-website-promotion-content h4 {
+    color: currentColor;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.classified-website-promotion-container .classified-website-promotion-content p {
+    color: currentColor;
+    letter-spacing: 0.14px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.classified-featured-items-masonry {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 8px 4px 0;
+}
+
+.classified-featured-items-masonry .classified-featured-item {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+
+.classified-featured-items-masonry:not(.slick-initialized) {
+    overflow: hidden;
+}
+
+.classified-featured-items-masonry:not(.slick-initialized) .classified-featured-item {
+    width: calc(100% / 6);
+    min-width: 200px;
+}
+
+.classified-featured-items-masonry-grid {
+    width: 100%;
+    height: 196px;
+    border-radius: var(--input-radius);
+    margin: 0 0 8px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.classified-featured-items-masonry .classified-featured-item.classified-featured-item-full-height .classified-featured-items-masonry-grid {
+    height: 400px;
+}
+
+.classified-featured-items-masonry-grid:after {
+    content: '';
+    background: transparent linear-gradient(180deg, #F9FAFC00 0%, #FFFFFF 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    transition: var(--transition);
+    border-radius: 250px;
+}
+
+.classified-featured-items-masonry-grid:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.classified-featured-items-masonry .classified-featured-item .classified-featured-items-masonry-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.classified-featured-items-masonry-grid .classified-featured-items-masonry-grid-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 15px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.classified-featured-items-masonry-grid:hover .classified-featured-items-masonry-grid-content {
+    transition: var(--transition);
+    transition-delay: var(--transition);
+    opacity: 1;
+}
+
+.classified-featured-items-masonry-grid .classified-featured-items-masonry-grid-content .classified-item-price {
+    color: var(--secondary-color);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.classified-featured-items-masonry-grid .classified-featured-items-masonry-grid-content .classified-item-title {
+    color: var(--secondary-color);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+/*Multi Search Style 1*/
+.classified-multi-search-style-1 {
+    padding: 0 0 60px 0;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tabs {
+    border: none;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-btn {
+    padding: 0;
+    min-width: 115px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-700);
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: normal;
+    margin: 0 5px 0 0;
+    border: none;
+    border-radius: var(--input-radius) var(--input-radius) 0 0;
+    background: var(--white-700);
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab:last-of-type .classified-multi-search-tab-btn {
+    margin-right: 0;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-btn i {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 5px 0 0;
+    color: inherit;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-btn.active {
+    background: var(--primary-color);
+    color: var(--primary-font-color);
+    position: relative;
+    z-index: 5;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form {
+    display: none;
+    background: var(--primary-color);
+    border-radius: var(--input-radius);
+    box-shadow: 0 3px 7px #6A6A6ABC;
+    padding: 20px 20px 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: relative;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button {
+    margin: 0 0 0 0 !important;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search {
+    margin: 0;
+    width: 141px;
+    height: 43px;
+    background: var(--secondary-color);
+    box-shadow: 0 4px 10px #00000046;
+    border-radius: 23px;
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-font-color);
+    transition: var(--transition);
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: 0.34px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search::before {
+    content: var(--search-icon-code);
+    font-family: "Font Awesome 6 Free", emoji;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    bottom: -1px;
+    position: relative;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search:hover {
+    background: var(--secondary-font-color);
+    color: var(--secondary-color);
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-search-field > label,
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-search-field > div > label {
+    display: none;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single {
+    margin-top: 0;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single span.select2-selection__arrow {
+    top: 0;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-container {
+    padding: 0;
+    min-width: 100%;
+    margin-bottom: 20px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single {
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .classified-form-field .form-control {
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .classified-form-field span.select2-selection.select2-selection--single span.select2-selection__rendered {
+    font-size: 12px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single,
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single span.select2-selection__arrow {
+    height: 34px;
+    line-height: 34px;
+}
+
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-checkbox-container .cwp-field-checkbox label,
+.classified-multi-search-style-1 .classified-multi-search-tab-content .cwp-search-form .cwp-field-radio-container .cwp-field-radio label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--primary-font-color);
+}
+
+/*Multi Search Style 2*/
+.classified-multi-search-style-2 {
+    background-color: var(--white-700);
+    box-shadow: 0 5px 15px #00000029;
+    border: 1px solid #F4F4F4;
+    padding: 20px 25px 63px;
+    border-radius: var(--input-radius);
+    position: relative;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tabs {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn {
+    border: 1px solid var(--heading-color);
+    border-radius: 19px;
+    min-width: 116px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: var(--heading-color);
+    margin: 0 15px 0 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn i {
+    margin: 0 5px 0 0;
+    color: var(--heading-color);
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn:hover,
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn.active {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn:hover i,
+.classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn.active i {
+    color: var(--primary-color);
+}
+
+.classified-multi-search-style-2 .cwp-search-form {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content {
+    margin: 0 -2px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-search-field > label,
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-search-field > div > label {
+    display: none;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single {
+    margin-top: 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single span.select2-selection__arrow {
+    top: 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-container {
+    padding: 0 5px;
+    margin: 0 0 17px 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single {
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .classified-form-field .form-control {
+    min-height: 45px;
+    padding: 0 10px;
+    font-size: 14px;
+    background: #F7F7F7;
+    border: none !important;
+    line-height: 45px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single,
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .select2-selection.select2-selection--single span.select2-selection__arrow {
+    height: 45px;
+    line-height: 45px;
+    background: #F7F7F7;
+    border: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.classified-multi-search-style-2 .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: var(--grid-text-color);
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-checkbox-container .cwp-field-checkbox label,
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-radio-container .cwp-field-radio label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: var(--primary-font-color);
+}
+
+.classified-multi-search-style-2 .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container {
+    border-radius: 34px !important;
+    border-color: #F7F7F7 !important;
+    background: #F7F7F7 !important;
+    margin: 0 0 0 0;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-radio-toggle .cwp-field-radio label {
+    line-height: 30px;
+    height: 30px;
+}
+
+.classified-multi-search-style-2 .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container .cwp-field-radio label::after {
+    width: calc(100% - 2px) !important;
+    height: calc(100% - 4px) !important;
+    top: 2px !important;
+    left: 2px !important;
+    right: 2px !important;
+    border-radius: 30px !important;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search {
+    margin: 0;
+    width: 115px;
+    height: 40px;
+    min-height: 40px;
+    background: var(--primary-color);
+    box-shadow: 0 4px 10px #00000046;
+    border-radius: 23px;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-font-color);
+    transition: var(--transition);
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: 0.34px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search::before {
+    content: var(--search-icon-code);
+    font-family: "Font Awesome 6 Free", emoji;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    bottom: -1px;
+    position: relative;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button .cwp-submit-search:hover {
+    background: var(--primary-font-color);
+    color: var(--primary-color);
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_ad_condition"] .cwp-radio-container,
+.classified-multi-search-style-2 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_automotive_condition"] .cwp-radio-container,
+.classified-multi-search-style-2 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_property_ad_purpose"] .cwp-radio-container {
+    max-width: 160px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_ad_condition"],
+.classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_automotive_condition"],
+.classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_property_ad_purpose"] {
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    max-width: 160px;
+}
+
+.classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button {
+    margin: 0 0 0 0;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    width: auto !important;
+}
+
+.classified-multi-search-style-2 .classified-search-tab-info {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classified-multi-search-style-2 .classified-search-tab-info > i {
+    margin-right: 5px;
+}
+
+/*Multi Search Style 3*/
+
+.classified-multi-search-style-3 {
+    background-color: var(--white-700);
+    box-shadow: 0 5px 15px #00000029;
+    border: 1px solid #F4F4F4;
+    border-radius: var(--border-radius-md);
+    padding: 8px 25px;
+}
+
+.classified-multi-search-style-3 .classified-multi-search-tabs {
+    border: none;
+    margin: 0 0 15px 0;
+}
+
+.classified-multi-search-style-3 .nav-tabs .nav-link {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: var(--heading-color);
+    border-bottom: 2px solid transparent;
+}
+
+.classified-multi-search-style-3 .nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.classified-multi-search-style-3 .nav-tabs .nav-link i {
+    margin: 0 5px 0 0;
+}
+
+.classified-multi-search-style-3 .nav-tabs .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.classified-multi-search-style-3 .cwp-search-form {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0 0 0 0;
+    box-shadow: none;
+}
+
+.classified-multi-search-style-3 .classified-search-tab-info {
+    margin: 10px 0 -50px 0;
+    color: var(--white-700);
+    font-size: 14px;
+    line-height: 37px;
+    font-weight: normal;
+}
+
+.classified-multi-search-style-3 .classified-search-tab-info i:first-child {
+    margin: 0 5px 0 0;
+    font-size: 12px;
+}
+
+.classified-multi-search-style-3 .classified-search-tab-info i:last-child {
+    margin: 0 0 0 5px;
+    font-size: 12px;
+}
+
+.classified-multi-search-style-3 .search-form-fields {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+}
+
+.classified-multi-search-style-3 span.select2-selection.select2-selection--single {
+    margin: 0 0 0 0;
+    padding: 14px 10px;
+}
+
+.classified-multi-search-style-3 .cwp-search-field label {
+    display: none;
+}
+
+.classified-multi-search-style-3 .cwp-submit-search {
+    margin: 0 0 0 0 !important;
+    border: 1px solid var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+    color: var(--primary-font-color) !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    line-height: 21px !important;
+    transition: var(--transition);
+}
+
+.classified-multi-search-style-3 .cwp-submit-search:before {
+    content: var(--search-icon-code);
+    font-family: var(--icons-font);
+    font-weight: 700;
+    margin: 0 5px 0 0;
+    font-size: 13px;
+    color: var(--primary-font-color);
+    transition: var(--transition);
+}
+
+.classified-multi-search-style-3 .cwp-submit-search:hover {
+    background-color: var(--primary-font-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.classified-multi-search-style-3 .cwp-submit-search:hover:before {
+    color: var(--primary-color);
+}
+
+.classified-multi-search-style-3 .classified-multi-search-have-tabs [data-name="classified_ad_condition"],
+.classified-multi-search-style-3 .classified-multi-search-have-tabs [data-name="classified_automotive_condition"],
+.classified-multi-search-style-3 .classified-multi-search-have-tabs [data-name="classified_property_ad_purpose"] {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-width: 160px;
+}
+
+.classified-multi-search-style-3 .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container {
+    border-radius: 34px !important;
+    border-color: #F3F3F3 !important;
+    background: #F3F3F3 !important;
+    margin: 0 0 0 0;
+}
+
+.classified-multi-search-style-3 .classified-multi-search-tab-content .cwp-search-form .cwp-field-radio-toggle .cwp-field-radio label {
+    line-height: 30px;
+    height: 30px;
+}
+
+.classified-multi-search-style-3 .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container .cwp-field-radio label::after {
+    width: calc(100% - 2px) !important;
+    height: calc(100% - 4px) !important;
+    top: 2px !important;
+    left: 2px !important;
+    right: 2px !important;
+    border-radius: 30px !important;
+}
+
+.classified-multi-search-style-3 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_ad_condition"] .cwp-radio-container,
+.classified-multi-search-style-3 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_automotive_condition"] .cwp-radio-container,
+.classified-multi-search-style-3 .classified-multi-search-tab-content:not(.classified-multi-search-have-tabs) [data-name="classified_property_ad_purpose"] .cwp-radio-container {
+    max-width: 160px;
+}
+
+.classified-multi-search-style-3 .classified-form-field .form-control {
+    background: #F7F7F7;
+    border-color: transparent;
+    min-height: 46px;
+    line-height: 34px;
+}
+
+/*Browse By*/
+.classified-browse-by-container .classified-browse-by-tabs {
+    border-bottom: none;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    padding: 0 0 2px 0;
+    position: relative;
+    margin: 0 0 23px 0;
+}
+
+.classified-browse-by-container .classified-browse-by-tabs:after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #CACACE;
+    z-index: -1;
+}
+
+.classified-browse-by-tabs .classified-browse-by-tab-btn {
+    padding: 0 40px 10px 40px;
+    border: none;
+    margin: 0 40px 0 0;
+    color: var(--grid-text-color);
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    transition: var(--transition);
+}
+
+.classified-browse-by-tabs .classified-browse-by-tab-btn.active,
+.classified-browse-by-tabs .classified-browse-by-tab-btn:hover {
+    color: var(--primary-color);
+}
+
+.classified-browse-by-tabs .classified-browse-by-tab-btn.active:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary-color);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.classified-browse-by-container .classified-browse-by-list {
+    padding: 0 0 0 0;
+}
+
+.classified-browse-by-list .classified-browse-by-list-item a {
+    font-size: 17px;
+    line-height: 38px;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.classified-browse-by-list .classified-browse-by-list-item a:not(:hover) {
+    color: #676E81;
+}
+
+.classified-browse-by-list .classified-browse-by-list-item a i {
+    color: inherit;
+    font-size: 15px;
+    margin: -1px 10px 0 0;
+    min-width: 20px;
+    min-height: 20px;
+    line-height: 20px;
+}
+
+.classified-browse-by-list .classified-browse-by-list-item a img {
+    width: 30px;
+    height: 21px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 10px 0 0;
+}
+
+/*Style 2*/
+.classified-browse-by-card .classified-browse-by-card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: none;
+    background-color: #F8F9FF;
+    border-radius: var(--input-radius);
+    transition: var(--transition);
+    width: 100%;
+    min-height: 125px;
+    position: relative;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.classified-browse-by-card .classified-browse-by-card-item:hover {
+    box-shadow: 0 1px 4px #00000021;
+    background-color: var(--white-700);
+}
+
+.classified-browse-by-card .classified-browse-by-card-item a {
+    font-size: 17px;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: var(--heading-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.classified-browse-by-card .classified-browse-by-card-item a i {
+    font-size: 17px;
+    margin: 0 0 5px 0;
+}
+
+.classified-browse-by-card .classified-browse-by-card-item a img {
+    width: 19px;
+    height: 17px;
+    object-fit: contain;
+    margin: 0 0 5px 0;
+}
+
+.classified-browse-by-card .classified-browse-by-card-item a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* classified reviews widget Style 1 */
+.classified-review-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--white-700);
+    border: 0.25px solid #c6ccdb5e;
+    opacity: 1;
+    border-radius: var(--border-radius-md);
+    margin: 0 0 30px 0;
+    transition: var(--transition);
+}
+
+.classified-review-card:hover {
+    border-color: transparent;
+    box-shadow: 0 13px 23px var(--deaf-font-color-600);
+}
+
+.classified-review-card-user-info {
+    padding: 18px 12px;
+    text-align: center;
+    border-right: 0.25px solid #c6ccdb5e;
+}
+
+.classified-review-card-user-info .classified-review-card-user img {
+    width: 59px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.classified-review-card-user-info .classified-review-card-user .user-name {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0;
+    color: var(--grid-text-color);
+    opacity: 1;
+    font-weight: 600;
+    padding: 4px 0;
+}
+
+.classified-review-card-user-info .classified-review-card-user .user-name i {
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.classified-review-card-user-info .classified-review-user-response .classified-review-user-layout-box {
+    width: calc(100% / 3);
+}
+
+.classified-review-card-user-info .classified-review-user-response {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.classified-review-card-user-info .classified-review-user-response .classified-review-user-layout-box .classified-review-user-status {
+    border-radius: 8px;
+    background: #f6f9ff;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--heading-color);
+    margin: 0 5px;
+    font-weight: 500;
+}
+
+.classified-review-card-user-info .classified-review-user-response .classified-review-user-layout-box .review-user-layout-box-info {
+    font-size: 10px;
+    text-transform: capitalize;
+    color: var(--grid-text-color);
+    font-weight: 600;
+}
+
+.classified-review-card-user-info .classified-review-user-response .classified-review-user-layout-box .review-user-layout-box-info span {
+    font-weight: 400;
+}
+
+.classified-review-card-reviewer-info .user-image img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.classified-review-card-reviewer-info .classified-review-des {
+    font-size: 12px;
+    font-style: italic;
+    margin: 25px 0;
+    color: var(--heading-color);
+    line-height: 17px;
+}
+
+.classified-review-card-reviewer-info i {
+    color: var(--primary-border-color);
+    font-size: 32px;
+}
+
+.classified-review-card-reviewer-info {
+    padding: 18px;
+    text-align: center;
+}
+
+.classified-review-card-user .classified-author-rating-stars {
+    padding: 0 0 0 0;
+    margin: 2px 0 13px 0;
+}
+
+.classified-review-card-user .classified-author-rating-stars i {
+    color: var(--golden-700);
+}
+
+/* classified reviews widget Style 1 */
+.classified-review-box {
+    background-color: var(--white-700);
+    box-shadow: 1px 2px 3px #CECECE5A;
+    border: 1px solid #eeeff3;
+    border-radius: var(--input-radius);
+    margin: 0 0 30px 0;
+}
+
+.classified-review-box .classified-review-content {
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eeeff3;
+    position: relative;
+}
+
+.classified-review-box .classified-review-content i {
+    color: var(--primary-border-color);
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.classified-review-box .classified-review-content .classified-review-des {
+    max-width: 80%;
+    text-align: center;
+    font-style: italic;
+    color: var(--heading-color);
+    opacity: 0.85;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.classified-review-box .classified-review-content img {
+    width: 34px;
+    height: 34px;
+    border-radius: 64px;
+    margin: 20px 0 0 0;
+}
+
+.classified-review-box .classified-reviewed-profile {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.classified-review-box .classified-reviewed-profile img {
+    width: 49px;
+    height: 49px;
+    border-radius: 98px;
+    margin: 0 10px 0 0;
+}
+
+.classified-review-box .classified-reviewed-profile .classified-reviewed-profile-name-rating h3 {
+    color: var(--grid-text-color);
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 0 0 2px 0;
+}
+
+.classified-review-box .classified-reviewed-profile .classified-reviewed-profile-name-rating .classified-author-rating-stars i {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--golden-700);
+    margin: 0 5px 0 0;
+}
+
+.classified-review-box .classified-reviewed-profile .classified-reviewed-profile-sold-items {
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--grid-text-color);
+}
+
+.classified-review-box .classified-reviewed-profile .classified-reviewed-profile-sold-items .classified-reviewed-profile-sold-item-count {
+    background-color: #E5EDF930;
+    border-radius: 70px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--heading-color);
+    align-items: center;
+    line-height: 18px;
+    margin: 0 0 1px 0;
+}
+
+/* // */
+form.mailpoet_form {
+    border-radius: var(--input-radius);
+}
+
+/*Plans*/
+
+.cwp-container.cwp-plans-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+.cwp-plans-container > h5 {
+    margin: 0 0 15px 0;
+}
+
+/*Plans*/
+
+/* Classified Search */
+.classified-search-style1-container {
+    background-color: #FFFFFF23;
+    border: 1px solid #70707023;
+    border-radius: var(--input-radius);
+    padding: 10px;
+}
+
+.classified-search-style1-container .cwp-search-form {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field,
+.classified-search-style1-container .search-form-fields .classified-form-field {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-submit-search {
+    margin: 0 0 0 0;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    font-size: 0;
+    min-height: 46px;
+    transition: var(--transition);
+    border: none;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-submit-search:hover {
+    background-color: #F7F7F7;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-submit-search:before {
+    content: var(--search-icon-code);
+    font-family: var(--icons-font);
+    color: var(--primary-font-color);
+    transition: var(--transition);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-submit-search:hover:before {
+    color: var(--primary-color);
+}
+
+.classified-search-style1-container .search-form-fields [data-name="classified_ad_condition"],
+.classified-search-style1-container .search-form-fields [data-name="classified_automotive_condition"],
+.classified-search-style1-container .search-form-fields [data-name="classified_property_ad_purpose"],
+.classified-search-style1-container .search-form-fields .cwp-search-field:not(:nth-child(2),:nth-child(3)),
+.classified-search-style1-container .search-form-fields .cwp-search-field > label {
+    display: none;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field:nth-child(2) {
+    width: calc((100% - 54px) / 2) !important;
+    margin: 0 8px 0 0;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field:nth-child(3) {
+    width: calc((100% - 54px) / 2) !important;
+}
+
+.classified-search-style1-container .search-form-fields [data-name="search_button"] {
+    width: 46px !important;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field input {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #F7F7F7;
+    min-height: 46px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 39px;
+    font-weight: normal;
+    color: var(--heading-color);
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field input::placeholder {
+    font-size: 17px;
+    line-height: 39px;
+    font-weight: normal;
+    color: #333333;
+    opacity: 0.35;
+}
+
+.classified-search-style1-container .search-form-fields .cwp-search-field:nth-child(3) input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*Classified Search Style 2*/
+.classified-search-style2-container .cwp-search-form {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 30px 0 0 0;
+}
+
+.classified-search-style2-container .search-form-fields {
+    background-color: var(--white-700);
+    border-radius: 25px;
+    padding: 5px;
+    flex-wrap: nowrap;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field,
+.classified-search-style2-container .search-form-fields .classified-form-field {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-submit-search {
+    margin: 0 0 0 0;
+    background-color: var(--primary-color);
+    color: var(--primary-font-color);
+    font-size: 15px;
+    min-height: 40px;
+    transition: var(--transition);
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-submit-search:hover {
+    background-color: #F7F7F7;
+    color: var(--primary-color);
+}
+
+.classified-search-style2-container .search-form-fields .cwp-submit-search:before {
+    content: var(--search-icon-code);
+    font-family: var(--icons-font);
+    color: var(--primary-font-color);
+    transition: var(--transition);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 5px 0 0;
+    position: relative;
+    bottom: -1px;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-submit-search:hover:before {
+    color: var(--primary-color);
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field:not([data-name=s],[data-name=classified_ad_condition],[data-name=classified_automotive_condition],[data-name=classified_property_ad_purpose]),
+.classified-search-style2-container .search-form-fields .cwp-search-field > label,
+.classified-search-style2-container .search-form-fields .cwp-search-field .cwp-radio-container > label {
+    display: none;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field input::placeholder {
+    font-size: 17px;
+    line-height: 39px;
+    font-weight: normal;
+    color: #333333;
+    opacity: 0.35;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field input {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 40px;
+    border-color: transparent;
+    font-size: 17px;
+    line-height: 39px;
+    font-weight: normal;
+    border-radius: 30px;
+    color: var(--heading-color);
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field input:focus {
+    box-shadow: none;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field[data-name=classified_ad_condition],
+.classified-search-style2-container .search-form-fields .cwp-search-field[data-name=classified_automotive_condition],
+.classified-search-style2-container .search-form-fields .cwp-search-field[data-name=classified_property_ad_purpose] {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto !important;
+}
+
+.classified-search-style2-container .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container {
+    background-color: transparent;
+    border: none;
+    margin: 0 0 0 0;
+}
+
+.classified-search-style2-container .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container li:first-of-type .cwp-field-radio label {
+    border: none;
+}
+
+.classified-search-style2-container .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container .cwp-field-radio label {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal !important;
+    color: var(--primary-font-color) !important;
+    min-width: 90px;
+    height: auto;
+    min-height: 30px;
+}
+
+.classified-search-style2-container .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label {
+    font-weight: 600 !important;
+}
+
+.classified-search-style2-container .cwp-field-radio-toggle.cwp-search-field .cwp-field-radio-container .cwp-field-radio label:after {
+    height: 2px !important;
+    top: unset !important;
+    bottom: 2px !important;
+    border-radius: 0 !important;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-search-field[data-name=s] {
+    width: calc(100% - 108px) !important;
+}
+
+.classified-search-style2-container .search-form-fields .cwp-field-button {
+    width: 108px !important;
+}
+
+@media only screen and (min-width: 991px) {
+    .classified-website-promotion-container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .classified-featured-items-container .classified-featured-item .classified-featured-item-details {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .classified-featured-items-container .classified-featured-item {
+        padding: 15px;
+    }
+
+    .classified-featured-items-container .classified-featured-item .classified-featured-item-details h1 {
+        margin: 0 0 10px 0;
+    }
+
+    .classified-featured-items-container .classified-featured-item .classified-featured-item-details p {
+        margin: 0 0 15px 0;
+    }
+
+    .classified-featured-items-container .classified-featured-item .classified-featured-item-details button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .classified-multi-search-style-2 {
+        padding: 20px 25px 90px;
+    }
+
+    .classified-multi-search-style-2 .classified-search-tab-info {
+        bottom: 80px;
+    }
+
+    .classified-multi-search-style-2 .classified-multi-search-tab-content .cwp-search-form .cwp-field-button {
+        bottom: 25px;
+    }
+
+    .classified-multi-search-style-2 .classified-multi-search-tabs .classified-multi-search-tab-btn {
+        min-width: 78px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0 8px 10px 0;
+    }
+
+    .classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_ad_condition"],
+    .classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_automotive_condition"],
+    .classified-multi-search-style-2 .classified-multi-search-have-tabs [data-name="classified_property_ad_purpose"] {
+        position: initial;
+    }
+
+    .classified-multi-search-style-2 .classified-search-tab-info p {
+        font-size: 11px;
+    }
+
+    .classified-multi-search-style-2 .classified-multi-search-tabs {
+        margin-bottom: 8px;
+    }
+
+    .classified-multi-search-style-2 .classified-search-tab-info {
+        bottom: 75px;
+        font-size: 11px;
+    }
+
+    .classified-featured-items-container .classified-featured-item {
+        padding: 4px;
+    }
+
+    .classified-multi-search-style-1 .classified-multi-search-tab-btn {
+        min-width: 74px;
+        height: 32px;
+        line-height: 17px;
+    }
+}

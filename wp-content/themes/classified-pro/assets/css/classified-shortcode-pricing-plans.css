@@ -1,0 +1,62 @@
+.classified-plan {
+	border: 1px solid var(--primary-border-color);
+	border-radius: var(--border-radius-md);
+	padding: 25px;
+	margin: 0 0 25px 0;
+}
+.classified-plan .classified-plan-title {
+	font-weight: 600;
+	margin: 0 0 25px 0;
+}
+.classified-plan .classified-plan-pricing {
+	font-size: 34px;
+	line-height: 40px;
+	font-weight: 500;
+	margin: 0 0 25px 0;
+}
+.classified-plan .classified-plan-pricing sup {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	margin: 0 5px 0 0;
+}
+.classified-plan .classified-plan-pricing sub {
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: 600;
+	color: var(--input-font-color-700);
+	bottom: 0;
+	margin: 0 0 0 0;
+}
+.classified-plan button {
+	border-radius: 6px;
+	margin: 0 0 25px 0;
+}
+.classified-plan .classified-plan-features {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.classified-plan .classified-plan-features .classified-plan-feature {
+	font-size: 12px;
+	line-height: 26px;
+	font-family: var(--primary-font);
+	font-weight: 500;
+	color: var(--input-font-color-700);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.classified-plan .classified-plan-features .classified-plan-feature i {
+	font-size: 14px;
+	margin: 0 5px 0 0;
+}
+.classified-plan .classified-plan-features .classified-plan-feature.classified-plan-feature-available i {
+	color: var(--green-700);
+	font-size: 16px;
+	line-height: 11px;
+	margin-left: -2px;
+}
+.classified-plan .classified-plan-features .classified-plan-feature.classified-plan-feature-not-available i {
+	color: var(--red-700);
+}

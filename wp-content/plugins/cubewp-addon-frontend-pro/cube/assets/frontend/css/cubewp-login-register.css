@@ -1,0 +1,61 @@
+/* =======> registeration <======= */
+
+/* heading */
+
+.cwp-frontend-form-container .cwp-user-register .cwp-frontend-section-container > h2,
+.cwp-frontend-form-container > h2
+{
+    letter-spacing: 0.3px;
+    word-spacing: 5px;
+    font-size: 30px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.cwp-frontend-form-container .cwp-user-register .cwp-field-password label,
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container .cwp-field-password label,
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container .cwp-field-text label,
+.cwp-frontend-form-container .cwp-user-register .cwp-field-email label,
+.cwp-frontend-form-container .cwp-user-register .cwp-field-text label {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container .cwp-field-text input[type=text],
+.cwp-frontend-form-container .cwp-user-register .cwp-field-email input[type=email],
+.cwp-frontend-form-container .cwp-user-register .cwp-field-text input[type=text],
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container .cwp-field-password input[type=password],
+.cwp-frontend-form-container .cwp-user-register .cwp-field-password input[type=password]
+{
+    margin-left: -2px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 15px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    border: 0.1rem solid #dcd7ca;
+    box-shadow: none;
+    display: block;
+    letter-spacing: 0;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-user-register .cwp-fields-container button,
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container button 
+{
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.cwp-frontend-form-container .cwp-user-login .cwp-fields-container .cwp-field-container label span.cwp-required,
+.cwp-frontend-form-container .cwp-user-register .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container label span.cwp-required {
+    color: red;
+}

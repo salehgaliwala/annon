@@ -1,0 +1,191 @@
+:root {
+    --form-container-bg: var(--white-700) 0 0 no-repeat padding-box;
+}
+
+.cwp-frontend-form-container {
+    background: var(--form-container-bg);
+    border-radius: 20px;
+    padding: 40px 15px 20px 15px;
+}
+
+.classified-submission-form-actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.classified-submission-form-actions button {
+    margin: 20px 0;
+    border-radius: 45px;
+}
+.classified-submission-form-actions .classified-submission-form-action-back {
+    margin-right: 30px;
+}
+.classified-submission-form-actions .classified-submission-form-action-back i {
+    margin-right: 5px;
+}
+.classified-submission-form-actions .classified-submission-form-action-next {
+    margin-right: 30px;
+}
+.classified-submission-form-actions .classified-submission-form-action-next i {
+    margin-left: 5px;
+}
+.classified-submission-form-actions .classified-submission-form-action-submit {
+    margin-left: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.cubewp-address-manually {
+    margin: 0 0 0 5px;
+}
+.classified-submission-form-section {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.classified-submission-form-section-active {
+    width: unset;
+    height: unset;
+    overflow: unset;
+}
+.classified-submission-form-section-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.classified-submission-form-section-info .classified-submission-form-section-title {
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--primary-color);
+}
+.classified-submission-form-section-info .classified-submission-form-section-title .classified-submission-form-section-count {
+    background: var(--primary-color);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    line-height: 17px;
+    color: var(--primary-font-color);
+    margin: 0 9px 0 0;
+}
+.classified-submission-form-section-info .classified-submission-form-section-progress {
+    margin: 0 0 10px 0;
+    color: var(--label-font-color);
+}
+.classified-submission-form-section-info .classified-submission-form-section-steps {
+    width: 100%;
+    align-self: stretch;
+    margin: 0 0 20px 0;
+}
+.classified-submission-form-section-info .classified-submission-form-section-steps .classified-submission-form-section-step {
+    height: 4px;
+    background: #CED1E2;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+.classified-submission-form-section-info .classified-submission-form-section-steps .classified-submission-form-section-step:first-child {
+    margin-left: 0;
+}
+.classified-submission-form-section-info .classified-submission-form-section-steps .classified-submission-form-section-step:last-child {
+    margin-right: 0;
+}
+.classified-submission-form-section-info .classified-submission-form-section-steps .classified-submission-form-section-step-active {
+    background: var(--primary-color);
+}
+
+/**
+ * Sidebar Grid Preview
+ */
+.classified-submission-form-sidebar {
+    background: #f9faff;
+    border-radius: 20px;
+    border: 1px solid #f9faff;
+    padding: 30px 20px 20px;
+    margin: 0 0 30px 0;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-tips {
+    border: 1px dashed var(--input-border-color);
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin: 0 0 30px 0;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-tips h5 {
+    margin: 0 0 10px 0;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-tips p {
+    color: var(--faded-font-color);
+    letter-spacing: 0.24px;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-live-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px auto 0 auto;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-live-text i {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #FF5151;
+    position: relative;
+    margin: 0 6px 0 0;
+    border-radius: 50%;
+}
+.classified-submission-form-sidebar .classified-submission-form-sidebar-live-text i:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #FF5151;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeOutIn calc( var(--transition) * 2 ) linear infinite;
+}
+@keyframes fadeOutIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

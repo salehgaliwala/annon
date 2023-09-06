@@ -1,0 +1,963 @@
+.classified-frontend-form-container .cwp-frontend-section-container {
+    margin-bottom: 10px;
+}
+
+.classified-frontend-form-container .cwp-frontend-section-heading-container {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    display: none;
+}
+
+.classified-frontend-form-container .cwp-frontend-section-heading-container h2 {
+    color: var(--grid-text-color);
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.classified-frontend-form-container .cwp-frontend-form-container .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.cwp-field-container.cwp-field-color.classified-form-field input[type=color] {
+    padding: 0.375rem 0.75rem;
+    min-height: 30px;
+    margin-top: 10px;
+}
+
+.cwp-field-container.cwp-field-range.classified-form-field {
+    justify-content: space-between !important;
+    flex-direction: inherit;
+    align-items: center !important;
+}
+
+.cwp-field-container.cwp-field-range.classified-form-field input[type=range] {
+    min-height: 25px !important;
+}
+
+/*Notice*/
+.cwp-required-field-notice {
+    display: block;
+    width: 100%;
+}
+
+.cwp-required-field-notice p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #f00000;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: var(--primary-font);
+}
+
+.cwp-field-container.cwp-field-switch.form-group.classified-form-field span.cwp-switch-text-no,
+.cwp-field-container.cwp-field-switch.form-group.classified-form-field span.cwp-switch-text-yes {
+    display: none;
+}
+
+/*Labels*/
+.cwp-frontend-form-container .classified-submission-form-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cwp-frontend-form-container .cwp-field-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+}
+
+.cwp-frontend-form-container p.cwp-field-container {
+    flex-direction: row;
+}
+
+.cubewp-forget-password-form-trigger,
+.cubewp-login-form-trigger {
+    margin: 0 0 0 5px;
+    color: var(--primary-color);
+}
+
+.cubewp-forget-password-form-trigger:hover,
+.cubewp-login-form-trigger:hover,
+.classified-register-trigger:hover {
+    text-decoration: underline;
+}
+
+.cwp-frontend-form-container .cwp-field-container > label,
+.cwp-frontend-form-container .cwp-field-container .cwp-checkbox-container > label,
+.cwp-frontend-form-container .cwp-field-container .cwp-radio-container > label,
+.cwp-frontend-form-container .cwp-field-container .cwp-switch-container > label,
+.cwp-frontend-form-container .cwp-frontend-section-container .cwp-field-container > label,
+.cwp-frontend-form-container .cwp-frontend-section-container .cwp-field-container.classified-form-field > label {
+    display: block !important;
+    font-size: 13px !important;
+    line-height: 17px !important;
+    font-family: var(--primary-font) !important;
+    color: var(---input-font-color-500) !important;
+    font-weight: 600 !important;
+    margin: 0 0 4px 0 !important;
+    word-spacing: 0 !important;
+    letter-spacing: 0 !important;
+}
+
+.cwp-frontend-form-container .cwp-field-container .description {
+    margin: 5px 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 13px;
+    font-family: var(--primary-font);
+    color: var(--faded-font-color);
+}
+
+/*Dropdown*/
+span.select2-selection.select2-selection--single {
+    margin: 10px 0 0 0;
+    padding: 11px 10px;
+    border: 1px solid var(--input-border-color) !important;
+    border-radius: var(--input-radius);
+}
+
+span.select2-selection.select2-selection--single span.select2-selection__arrow {
+    top: 10px;
+    right: 5px;
+    height: 41px;
+    line-height: 41px;
+}
+
+/**
+ * Text Field
+ * Number Field
+ * Google Address Field
+ * Textarea Field
+ * Select Field
+ */
+.cwp-frontend-form-container .cwp-field-container input[type=text],
+.cwp-frontend-form-container .cwp-field-container input[type=number],
+.cwp-frontend-form-container .cwp-field-container input[type=email],
+.cwp-frontend-form-container .cwp-field-container input[type=password],
+.cwp-frontend-form-container .cwp-field-container input[type=url],
+.cwp-frontend-form-container .cwp-field-container input[type=google_address],
+.cwp-frontend-form-container .cwp-field-container textarea,
+.cwp-frontend-form-container .cwp-field-container select {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--input-radius);
+    padding: 8px 12px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    height: 40px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: var(--primary-font);
+    color: var(--label-font-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container textarea {
+    height: 200px;
+    resize: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container select {
+    border-color: var(--faded-font-color);
+    color: var(--label-font-color);
+}
+
+/* File Field */
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 115px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview {
+    border-radius: var(--input-radius);
+    display: none;
+    height: 92px;
+    margin: 10px 0 0 15px;
+    overflow: hidden;
+    position: relative;
+    min-width: 130px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview span {
+    background: var(--red-700);
+    border-radius: 50%;
+    color: var(--white-700);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 0;
+    transition: 300ms;
+    z-index: 9;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview p {
+    background: var(--primary-color);
+    bottom: -10px;
+    color: var(--primary-font-color);
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    opacity: 0;
+    padding: 5px;
+    position: absolute;
+    transition: 300ms;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview:hover p {
+    bottom: 0;
+    opacity: 1;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview:hover span {
+    opacity: 1;
+    top: 5px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field-preview img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--input-radius);
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    padding: 15px;
+    position: relative;
+    min-width: 130px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field > span {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 auto 5px auto;
+    text-align: center;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field > span > svg {
+    height: 30px;
+    width: 30px;
+    fill: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field > p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    color: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field > p:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-file .cwp-file-field-container .cwp-file-field > input[type=file] {
+    display: none;
+}
+
+/* Gallery Field */
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 115px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview {
+    border-radius: var(--input-radius);
+    display: none;
+    height: 92px;
+    margin: 10px 10px 20px 10px;
+    overflow: hidden;
+    position: relative;
+    width: calc((100% / 3) - 77px);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview.cloned:nth-of-type(4n - 2) {
+    margin-left: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview span {
+    background: var(--red-700);
+    border-radius: 50%;
+    color: var(--white-700);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 0;
+    transition: 300ms;
+    z-index: 9;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview p {
+    background: var(--primary-color);
+    bottom: -10px;
+    color: var(--primary-font-color);
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    opacity: 0;
+    padding: 5px;
+    position: absolute;
+    transition: 300ms;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview:hover p {
+    bottom: 0;
+    opacity: 1;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview:hover span {
+    opacity: 1;
+    top: 5px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field-preview img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--input-radius);
+    cursor: pointer;
+    margin: 10px 10px 20px 0;
+    padding: 15px;
+    position: relative;
+    min-width: 160px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field > span {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 auto 5px auto;
+    text-align: center;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field > span > svg {
+    height: 30px;
+    width: 30px;
+    fill: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field > p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    color: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field > p:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-gallery .cwp-gallery-field-container .cwp-gallery-field > .cwp-gallery-field-inputs > input[type=file] {
+    display: none;
+}
+
+
+/*Google Address Field*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-google_address .cwp-field-google-address-input-container {
+    position: relative;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-google_address .cwp-field-google-address-input-container input[type=google_address] {
+    padding-right: 35px;
+    margin: 0 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-google_address .cwp-field-google-address-input-container .cwp-get-current-location {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/**
+ * Checkbox Field
+ * Radio Field
+ */
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio {
+    margin: 0 50px 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox label,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label {
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 0 0 25px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    user-select: none;
+    position: relative;
+    font-family: var(--primary-font);
+    color: var(--label-font-color);
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox input[type=checkbox],
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input[type=radio] {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox label:before,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -2px;
+    left: -41px;
+    background: var(--primary-font-color);
+    border: 1px solid var(--input-border-color);
+    border-radius: 6px;
+    transition: var(--transition);
+    color: var(--primary-font-color);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FontAwesome', emoji;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox input[type=checkbox]:checked ~ label,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label {
+    color: var(--primary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-checkbox .cwp-field-checkbox-container .cwp-field-checkbox input[type=checkbox]:checked ~ label:before,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label:before {
+    content: '\f00c';
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--primary-font-color);
+    font-size: 9px;
+}
+
+/*Radio Field*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label:before {
+    border-radius: 50%;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label:before {
+    content: '\f111';
+}
+
+/*Switch Field*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-switch .cwp-switch-container .cwp-field-switch-container {
+    margin: 15px 0 0 0;
+    width: 30px;
+    height: 16px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-switch .cwp-switch-container .cwp-field-switch-container .cwp-field-switch-slider {
+    background: var(--input-border-color);
+    border-radius: 6px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-switch .cwp-switch-container .cwp-field-switch-container .cwp-field-switch-slider:before {
+    width: 5px;
+    height: 9px;
+    background: var(--primary-font-color);
+    border-radius: 6px;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-switch .cwp-switch-container .cwp-field-switch-container input:checked + .cwp-field-switch-slider {
+    background: var(--primary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-switch .cwp-switch-container .cwp-field-switch-container input:checked + .cwp-field-switch-slider:before {
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    transform: translate(14px, -50%);
+}
+
+/*wysiwyg_editor Field*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .wp-editor-wrap {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .wp-editor-wrap * {
+    border-color: var(--input-border-color);
+    text-shadow: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-tinymce.mce-container.mce-panel {
+    border-radius: var(--input-radius);
+    overflow: hidden;
+    box-shadow: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-container-body.mce-flow-layout {
+    padding: 15px 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-top-part::before {
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn-group .mce-btn {
+    margin: 0 0 0 15px;
+    border-radius: 6px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn-group .mce-btn .mce-ico {
+    color: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn-group .mce-menubtn.mce-fixed-width span {
+    color: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn-group .mce-menubtn.mce-fixed-width .mce-caret {
+    border-color: transparent;
+    border-top-color: var(--input-border-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-statusbar.mce-container.mce-panel.mce-stack-layout-item.mce-last {
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-edit-area.mce-container.mce-panel.mce-stack-layout-item iframe {
+    min-height: 200px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn.mce-active button,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn.mce-active:hover button,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn.mce-active i,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn.mce-active:hover i,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-wysiwyg_editor .mce-btn-group .mce-btn.mce-active {
+    color: var(--primary-font-color) !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    border-radius: 6px !important;
+}
+
+/*Repeating Fields*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:focus {
+    border-radius: var(--border-radius);
+    padding: 12px 30px;
+    cursor: pointer;
+    border: 1px solid;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: var(--primary-font);
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field svg {
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    background: var(--primary-font-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field svg {
+    fill: var(--primary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: var(--primary-color);
+    color: var(--primary-font-color);
+    border-color: var(--primary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover svg {
+    fill: var(--primary-font-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-field-container {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-field-container:first-child {
+    margin-top: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-field-container:last-child {
+    margin-bottom: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row {
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row .cwp-repeating-single-field {
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--input-radius);
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    position: relative;
+    background: var(--form-container-bg);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-move {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-move svg,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-remove svg {
+    fill: var(--primary-font-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-remove {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    background: #f00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--transition);
+    transition-delay: 90ms;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row:hover .cwp-repeating-single-field-move,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row:hover .cwp-repeating-single-field-remove {
+    opacity: 1;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row:hover .cwp-repeating-single-field-move {
+    right: 10px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row:hover .cwp-repeating-single-field-remove {
+    right: 50px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-row .cwp-repeating-single-field-remove,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field-move {
+    display: flex !important;
+}
+
+/*Radio Toggle*/
+.cwp-field-radio-toggle .cwp-field-radio-container {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--input-radius);
+    background: var(--white-700);
+    flex-wrap: nowrap !important;
+    margin: 10px 0 0 0;
+    border: 1px solid var(--input-border-color);
+    overflow: hidden;
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio {
+    margin: 0 0 0 0;
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio input[type=radio] {
+    display: none;
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio label {
+    padding: 0 40px;
+    height: 38px;
+    color: var(--primary-color);
+    font-size: 12px;
+    line-height: 38px;
+    font-weight: normal;
+    position: relative;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label {
+    color: var(--primary-font-color);
+    transform: scale(1);
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio label:after {
+    content: '';
+    background: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: var(--input-radius);
+    z-index: -1;
+    transition: var(--transition);
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container > .cwp-field-radio:last-child label:after {
+    transform: translateX(150%);
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container > .cwp-field-radio:first-child label:after {
+    transform: translateX(-150%) !important;
+}
+
+.cwp-field-radio-toggle .cwp-field-radio-container .cwp-field-radio input[type=radio]:checked ~ label:after {
+    transform: translateX(0) !important;
+    left: -1px;
+    top: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+}
+
+/*Radio With Icon*/
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label:before {
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--white-700);
+    margin: 0 5px;
+    padding: 20px 10px;
+    position: relative;
+    text-align: center;
+    min-width: 90px;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio:first-of-type {
+    margin-left: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio:last-of-type {
+    margin-right: 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: normal;
+    color: var(---input-font-color-500);
+    margin: 0 0;
+    padding: 0 0;
+    position: static;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio label:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    border: 0.25px solid var(--primary-border-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input:checked ~ label:after {
+    border-color: var(--secondary-color);
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio i {
+    font-size: 14px;
+    line-height: 15px;
+    width: 12px;
+    height: 13px;
+    color: var(---input-font-color-500);
+    margin: 0 0 13px 0;
+}
+
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input:checked ~ label,
+.cwp-frontend-form-container .cwp-field-container.cwp-field-radio.classified-radio-with-icons:not(.cwp-field-radio-toggle) .cwp-field-radio-container .cwp-field-radio input:checked ~ i {
+    color: var(--secondary-color) !important;
+}
+
+.classified-form-field {
+    margin: 0 0 24px 0;
+}
+
+.classified-form-field .form-control {
+    background: var(--white-700);
+    border: 0.25px solid var(---primary-border-color);
+    border-radius: 5px;
+    min-height: 41px;
+    color: var(--grid-text-color);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: var(--grid-text-color);
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border: none !important;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit {
+    display: block;
+    width: 100%;
+    height: 52px;
+    border: 0.25px solid var(--secondary-color);
+    border-radius: 5px;
+    background: var(--white-700);
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit:hover {
+    color: var(--white-700);
+    background-color: var(--secondary-color);
+}
+
+.cwp-frontend-form-container input[type=submit] {
+    margin: 0 0 0 0 !important;
+}
+
+.classified-frontend-form-container .cwp-frontend-form-container input[type=submit] {
+    background: var(--primary-color);
+    color: var(--primary-font-color);
+}
+
+.classified-frontend-form-container .cwp-frontend-form-container input[type=submit] {
+    background: var(--primary-color);
+    color: var(--primary-font-color);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.classified-frontend-form-container .cwp-frontend-form-container input[type=submit]:hover {
+    background: var(--primary-font-color);
+    color: var(--primary-color);
+}
+
+.cwp-required {
+    margin: 0 0 0 2px;
+    color: var(--red-700);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 1px rgba(13, 110, 253, .25);
+}
+
+.classified-frontend-form-container .cwp-field-password .show-password {
+    top: unset;
+    bottom: 11px;
+}
+
+.classified-frontend-form-container .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice {
+    margin: 1px 0 0 0;
+}

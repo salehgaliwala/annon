@@ -1,0 +1,471 @@
+/* cube importer */
+.cube-theme-importer {
+    padding: 20px;
+}
+.cube-setup-grid-progress {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+}
+.cube-setup-grid-progress .cube-setup-grid-header {
+    background: #DBE9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    padding: 7px 40px;
+}
+.importer-step-form-lisance-main .License-Verification-des {
+    text-align: center;
+    font: normal normal normal 18px/33px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 0px 0 20px 0;
+}
+.importer-step-form-lisance-main .License-Verification-title {
+    text-align: center;
+    font: normal normal normal 42px/50px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 20px 0;
+}
+.cube-setup-grid-progress .cube-setup-grid-header .main-title p {
+    font-size: 14px;
+    line-height: 1.8rem;
+    font-family: Helvetica;
+    color: #6C7780;
+}
+.cube-setup-grid-progress .cube-setup-grid-header .main-title h3 {
+    font-size: 18px !important;
+    line-height: 26px;
+    color: #32373C !important;
+    margin-bottom: 14px;
+    font-family: Helvetica !important;
+    font-weight: bold;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list {
+    display: flex;
+    border-bottom: 1px solid #E9EAEA;
+    padding: 20px;
+    color: #000000CC;
+    font-family: Helvetica !important;
+    font-weight: bold;
+    font-size: 15px !important;
+    align-items: center;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list .colored {
+    display: none;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list.active .hide-color {
+    display: none;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list.active .colored {
+    display: block !important;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list img {
+    margin-right: 10px;
+}
+/* step one */
+.importer-tab-started-main {
+    padding-bottom: 42px;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 15px;
+    background: white;
+    text-align: center;
+}
+.importer-tab-started-main header.importer-step-form-lisance-header {
+    padding: 25px;
+    justify-content: center;
+}
+.importer-tab-started-main header.importer-step-form-lisance-header img {
+    max-width: 225px;
+}
+.importer-tab-started-main header.import-header {
+    text-align: left;
+}
+.importer-tab-started-main header.import-header img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.importer-tab-started-main .welcome-text {
+    text-align: center;
+    line-height: 40px;
+    margin: 18px 0px;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    font-size: 30px;
+    font-family: Helvetica;
+    padding: 0px 0;
+}
+.importer-tab-started-main .get-started-features .cube-started-features h5 {
+    color: black;
+    font: normal normal 16px/19px Helvetica;
+}
+.importer-tab-started-main .get-started-features .cube-started-features h5 span{
+    color: black;
+    font-weight:bold;
+    line-height: 1.3em;
+}
+.importer-tab-started-main .welcome-des {
+    text-align: center;
+    font: normal normal normal 18px/33px Helvetica;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    width: 62%;
+    margin: auto;
+    margin-bottom: 20px !important;
+}
+.importer-tab-started-main .get-started-features {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+.next-step-import, #cwp_license_submit, #install-plugins {
+    background: #23A713 0% 0% no-repeat padding-box;
+    border-radius: 4px !important;
+    width: fit-content;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    padding: 12px 62px;
+    opacity: 1 !important;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: capitalize;
+    margin: auto;
+    margin-top: 35px;
+}
+.disabled {
+    background: #adadad !important;
+    pointer-events:none;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 20px;
+    height: 20px;
+    margin-right:15px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.next-step-import:hover, #cwp_license_submit:hover, #install-plugins:hover {
+    background: #178909 0% 0% no-repeat padding-box;
+}
+.cubewp-theme-importer-main {
+    position: relative;
+}
+.cubewp-theme-importer-main .importer-tab {
+    display: none;
+}
+.cubewp-theme-importer-main .importer-tab.active {
+    display: block;
+}
+.cubewp-theme-importer-main .importer-tab {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 15px;
+    min-height: 625px;
+}
+.cubewp-theme-importer-main .importer-tab .button-primary.cwp_import_demo:disabled {
+    cursor: not-allowed;
+    background: #adadad !important;
+}
+.importer-step-form-lisance-header {
+    background: #FBF5E8;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+.importer-step-form-lisance-header .bg-importer-header {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+.importer-step-form-lisance-header .logo {
+    margin-left: 44px;
+    max-width: 203px;
+    height: auto;
+    object-fit: contain;
+}
+.importer-step-form-lisance-main {
+    text-align: center;
+    padding: 50px;
+}
+.importer-step-form-lisance-main .plugin-required-title {
+    text-align: center;
+    font: normal normal normal 42px/50px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 20px 0;
+}
+.importer-step-form-lisance-main .plugin-required-des {
+    text-align: center;
+    font: normal normal normal 18px/33px Helvetica;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 0px 0 20px 0;
+}
+.importer-step-form-lisance-main .verify-license {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    margin: auto;
+    max-width: 380px;
+    padding: 0 20px;
+}
+#cwp_license_verification {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.importer-step-form-lisance-main .verify-license .input-key-theme {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.importer-step-form-lisance-main .verify-license .input-key-theme label {
+    text-align: left;
+    font: normal normal bold 13px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #0878B0;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+.importer-step-form-lisance-main .verify-license .input-key-theme input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 1px 2px #00000012;
+    border: 1px solid #DDDDDD !important;
+    opacity: 1;
+    border-radius: 7px !important;
+    text-align: left;
+    font: normal normal normal 16px/21px Helvetica;
+    letter-spacing: 0.02px;
+    color: #000000CC;
+    opacity: 1;
+    font-style: inherit !important;
+    font-size: 16px !important;
+}
+.importer-step-form-lisance-main .verify-license span {
+    text-align: left;
+    font: italic normal normal 11px/21px Helvetica;
+    letter-spacing: 0px;
+    color: #727272;
+    opacity: 1;
+}
+.importer-step-form-lisance .progress-bar {
+    position: relative;
+    margin: 0 auto;
+    height: 24px;
+    background: #EBEBEB;
+    overflow: hidden;
+    margin-top: 28px;
+    width: 293px;
+    border-radius: 50px;
+}
+.importer-step-form-lisance-main .verify-license p.verify-name {
+    text-align: center;
+    font: italic normal normal 13px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #0091FF;
+    margin: 0;
+}
+.importer-step-form-lisance .progess-animation {
+    content: "10";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient( 405deg, #0991CE 33%, #27AAE1 33%, #27AAE1 57%, #0991CE 13%, #0991CE 83%, #27AAE1, #27AAE1 73%);
+    z-index: 1;
+    background-size: 34px 34px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    padding: 4px 8px;
+    text-align: right !important;
+    color: #fff !important;
+    font: normal normal bold 13px/16px Helvetica !important;
+}
+.importer-step-form-lisance-main .plugin-rocket {
+    width: 110px;
+    height: auto;
+}
+.importer-step-form-lisance-main .verify-license .verify-title {
+    color: #23282D;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+.next-step-import.uncheck {
+    background: #6D7278 0% 0% no-repeat padding-box;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.importer-step-form-lisance-main .importer-timer {
+    text-align: center;
+    margin: 20px auto;
+}
+.importer-step-form-lisance-main .importer-timer .importer-time {
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    border: 1px solid #DB3434;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    color: #DB3434;
+}
+.importer-step-form-lisance-main .importer-timer span {
+    text-align: center;
+    font: normal normal normal 18px/33px Helvetica;
+    letter-spacing: 0px;
+    color: #DB3434;
+    opacity: 1;
+}
+.importer-step-form-lisance-main .importer-failed-lists ul li {
+    text-align: center;
+    font: normal normal normal 13px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #23282D;
+    opacity: 1;
+    line-height: 1.8rem;
+}
+.loader-import-data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.3s;
+    backdrop-filter: blur(9px);
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    align-items: center;
+}
+.container,
+.importer-container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.importer-row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.importer-row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+.importer-col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.importer-col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+.cube-setup-grid-list .cube-setup-list-theme li.progress-list:last-child {
+    border-bottom: 0px solid #E9EAEA;
+}
+* {
+    box-sizing: border-box;
+}
+li.progress-list.failed.hide{
+    display:none;
+}
+a.cwp_continues_import {
+    background: #37b541;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+}
+.cubewp-theme-importer-main .importer-tab .button-primary.cwp_import_demo {
+    background: #23A713 0% 0% no-repeat padding-box !important;
+    border-radius: 5px !important;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+    color: #FFFFFF !important;
+    padding: 7px 40px;
+    opacity: 1 !important;
+    font-size: 19px;
+    border: none !important;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: capitalize;
+    margin: 44px auto;
+}
+.cubewp-theme-importer-main .importer-tab .button-primary.cwp_import_demo .loader {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.wp-core-ui .cwp_skip_import {
+    color: #ff8c3e;
+    padding: 7px 12px !important;
+    background: none;
+    font-weight: bold;
+    font-size: 13px;
+    border-color: #ff8d3f;
+    border-radius: 35px !important;
+    border: 1px solid;
+}
+.importer-tab-started-main img {
+    max-height: 450px;
+}

@@ -1,0 +1,21 @@
+.cwp-custom-form .cwp-frontend-section-container {
+    margin-bottom: 30px;
+}
+.cwp-frontend-form-container .cwp-custom-form input[type=submit] {
+    margin: 20px auto;
+}
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-right {
+    float: right;
+}
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-left {
+    float: left;
+}
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-center {
+    display: block;
+}
+.cwp-custom-form .cwp-frontend-section-heading-container {
+    border-bottom: 0;
+}
+.cwp-frontend-form-container .cwp-custom-form .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border-top: 1px solid #e0e0e0;
+}

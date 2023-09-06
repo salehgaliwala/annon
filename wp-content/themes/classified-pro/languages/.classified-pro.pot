@@ -1,0 +1,1840 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: classified-pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-28 18:34+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Cridio <cridio.studio@gmail.com>\n"
+"Language-Team: Cridio <cridio.studio@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2;esc_html_e;"
+"esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:14
+msgid "404 - PAGE NOT FOUND"
+msgstr ""
+
+#: author.php:70 index.php:67 templates/author/author-style-2.php:209
+#: templates/author/author-style-2.php:239
+msgid "No Results"
+msgstr ""
+
+#: author.php:71 index.php:68
+msgid "Sorry! There is no post available."
+msgstr ""
+
+#: classes/class-classified-theme-frontend-fields.php:192
+#: classes/class-classified-theme-frontend-fields.php:193
+msgid "See More"
+msgstr ""
+
+#: classes/class-classified-theme-frontend-fields.php:192
+msgid "See Less"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:28
+msgid "Section Layout"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:33
+msgid "Bordered Box"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:34
+msgid "Highlighted"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:35
+msgid "No Styling"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:40
+msgid "Section Title"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:45
+msgid "Show Section Title"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:46
+msgid "Hide Section Title"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:61
+msgid "Show ID in widget"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:65
+msgid "Yes"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:66
+msgid "No"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:75
+msgid "Description Type"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:79
+msgid "Ad Excerpt"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:80
+msgid "Ad Content ( 20 Words )"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:81
+msgid "Hide Description"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:90
+msgid "Ad Share"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:94
+#: classes/class-classified-theme-single-widgets.php:106
+#: classes/class-classified-theme-single-widgets.php:118
+#: classes/class-classified-theme-single-widgets.php:132
+#: classes/class-classified-theme-single-widgets.php:144
+#: classes/class-classified-theme-single-widgets.php:156
+#: classes/class-classified-theme-single-widgets.php:212
+#: classes/class-classified-theme-single-widgets.php:224
+#: classes/class-classified-theme-single-widgets.php:236
+#: include/classified-single-widgets-callback.php:406
+#: include/classified-single-widgets-callback.php:427
+msgid "Show"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:95
+#: classes/class-classified-theme-single-widgets.php:107
+#: classes/class-classified-theme-single-widgets.php:119
+#: classes/class-classified-theme-single-widgets.php:133
+#: classes/class-classified-theme-single-widgets.php:145
+#: classes/class-classified-theme-single-widgets.php:157
+#: classes/class-classified-theme-single-widgets.php:213
+#: classes/class-classified-theme-single-widgets.php:225
+#: classes/class-classified-theme-single-widgets.php:237
+msgid "Hide"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:102
+msgid "Ad Report"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:114
+msgid "Ad Save"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:128
+msgid "Author Website"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:140
+msgid "Author Phone"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:152
+msgid "Author Stats"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:166
+msgid "Quick Tip Heading"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:168
+#: include/classified-single-widgets-callback.php:563
+msgid "Safety Tips"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:174
+msgid "Quick Tip Description"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:176
+msgid "Buy and sell safely with Us !"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:182
+msgid "Quick Tip Link Text"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:184
+msgid "Read our Safety Tips"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:190
+msgid "Quick Tip Link"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:192
+msgid "#"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:198
+msgid "Quick Tip Icon"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:208
+msgid "Ad Views"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:220
+msgid "Ad Posted Date"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:232
+msgid "Ad Updated Date"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:248
+msgid "Icon"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:270
+msgid "The Content"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:275
+msgid "Ad ID And Price Details"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:280
+msgid "Ad Title And Description"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:285
+msgid "Ad Actions"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:290
+msgid "Ad Single Quick Tip"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:295
+msgid "Ad Single Sections Tabs"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:300
+msgid "Ad stats"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:305
+msgid "Property Ad Type"
+msgstr ""
+
+#: classes/class-classified-theme-single-widgets.php:310
+msgid "WordPress Sidebar"
+msgstr ""
+
+#: classes/class-classified.php:78
+msgid "Important Notice! New ClassifiedPro Update Available."
+msgstr ""
+
+#: classes/class-classified.php:79
+msgid "A new update of ClassifiedPro Theme is now available."
+msgstr ""
+
+#: classes/class-classified.php:80
+msgid ""
+"To update your theme, simply log in to your Themeforest account and navigate to "
+"your downloads section. From there, you can download the latest version of your "
+"theme and follow the installation instructions included in the package."
+msgstr ""
+
+#: classes/class-classified.php:81
+msgid ""
+"Please note that updating your theme may overwrite any customizations you have "
+"made or language translation. We recommend that you create a backup of your "
+"current version before updating."
+msgstr ""
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgid "One thought on %s"
+msgstr ""
+
+#: comments.php:16
+#, php-format
+msgid "%1$s thoughts on %2$s"
+msgid_plural "%1$s thoughts on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:26
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:32
+msgid "No Comment Found."
+msgstr ""
+
+#: comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:42
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:49
+msgid "CubeWP Framework"
+msgstr ""
+
+#: functions.php:56
+msgid "CubeWP Frontend Pro"
+msgstr ""
+
+#: functions.php:64
+msgid "CubeWP Classified"
+msgstr ""
+
+#: functions.php:72
+msgid "CubeWP Inbox"
+msgstr ""
+
+#: functions.php:80
+msgid "CubeWP Booster"
+msgstr ""
+
+#: functions.php:88
+msgid "CubeWP Reviews"
+msgstr ""
+
+#: functions.php:96
+msgid "CubeWP Wallet"
+msgstr ""
+
+#: functions.php:104
+msgid "CubeWP Payments"
+msgstr ""
+
+#: functions.php:112
+msgid "CubeWP Social Logins"
+msgstr ""
+
+#: functions.php:120
+msgid "CubeWP Forms"
+msgstr ""
+
+#: functions.php:417
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:437
+msgid "Home Bottom Bar Page Header"
+msgstr ""
+
+#: functions.php:438
+msgid "Inner Bottom Bar Pages Header"
+msgstr ""
+
+#: functions.php:439
+msgid "Home Page Offcanvas"
+msgstr ""
+
+#: functions.php:440
+msgid "Inner Pages Offcanvas"
+msgstr ""
+
+#: functions.php:441
+msgid "Header Top Bar"
+msgstr ""
+
+#: functions.php:447 include/settings.php:861
+msgid "Sub Footer"
+msgstr ""
+
+#: functions.php:508 include/settings.php:787 index.php:24
+msgid "Home"
+msgstr ""
+
+#: functions.php:517 functions.php:519 functions.php:521
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:519
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:521
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:569
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:73
+#, php-format
+msgid "%s Gallery Image"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:157
+msgid "Map is approximate to keep seller’s location private."
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:190
+#, php-format
+msgid "Ad id #%s"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:236
+#: templates/loop/loop-style-1.php:46 templates/loop/loop-style-2.php:27
+msgid "Save"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:253
+msgid "Share"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:270
+msgid "Report"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:304
+msgid "--"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:316
+#, php-format
+msgid " Avatar of %s"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:328
+#: templates/author/author-style-2.php:51
+msgid "Verified"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:345
+msgid "Let’s Chat"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:361
+msgid "Visit Website"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:368
+msgid " link Copied"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:369
+msgid "Copy link"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:380
+msgid "Phone Number"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:387
+msgid " Number Copied"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:388
+msgid "Copy Number"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:401
+msgid "Website"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:405
+msgid "Visit"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:426
+msgid "Call"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:438
+msgid "Member Since"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:442
+#: templates/author/author-style-2.php:105
+msgid "Typically Replies In"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:446
+msgid "From"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:479
+msgid "Posted"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:480
+#: include/classified-single-widgets-callback.php:491 single.php:35
+#: templates/loop/blog-loop-style-1.php:25
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:490
+msgid "Updated"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:501
+msgid "Views"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:681
+msgid "Other items by seller"
+msgstr ""
+
+#: include/classified-single-widgets-callback.php:749
+msgid "Related Items"
+msgstr ""
+
+#: include/helper.php:85
+msgid "result"
+msgstr ""
+
+#: include/helper.php:87
+msgid "results"
+msgstr ""
+
+#: include/helper.php:98
+msgid "found"
+msgstr ""
+
+#: include/helper.php:103 include/helper.php:123
+msgid "in"
+msgstr ""
+
+#: include/helper.php:186 templates/headers/header-style-2.php:90
+msgid "All Categories"
+msgstr ""
+
+#: include/helper.php:249 templates/headers/header-style-2.php:186
+msgid "Advertisement"
+msgstr ""
+
+#: include/helper.php:429
+msgid "Messages"
+msgstr ""
+
+#: include/helper.php:452
+msgid "Favorites"
+msgstr ""
+
+#: include/helper.php:476
+msgid "Dashboard"
+msgstr ""
+
+#: include/helper.php:482
+msgid "Logout"
+msgstr ""
+
+#: include/helper.php:493
+msgid "Login"
+msgstr ""
+
+#: include/helper.php:525 include/helper.php:535
+msgid "Sell Now"
+msgstr ""
+
+#: include/helper.php:642
+msgid "Enter icon image url or font awesome class or SVG code."
+msgstr ""
+
+#: include/sdk/manager.php:46
+msgid "There is error with url or parameters"
+msgstr ""
+
+#: include/sdk/manager.php:137
+msgid "Failed to download file/No file founded!"
+msgstr ""
+
+#: include/sdk/manager.php:154
+msgid " Activated!"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:11
+msgid "Classified Pro - ReCommerce Classified WordPress Theme"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:12
+msgid ""
+"Thank you so much for purchasing Classified Pro WordPress Theme built with "
+"CubeWP Framework. We are very grateful for your support and with this setup "
+"wizard we hope to make your journey a little bit easier."
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:17
+msgid "Verify"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:17
+msgid "License Key"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:23
+msgid "Install"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:23 include/sdk/views/cwp-view.php:63
+msgid "Required Plugins"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:29
+msgid "Import"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:29
+msgid "Dummy Data"
+msgstr ""
+
+#: include/sdk/views/cwp-setup-welcome.php:34
+msgid "get started"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:22
+msgid "Setup Wizard Progress"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:23
+msgid "Please complete all the setups to make sure the setup is successful."
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:39
+msgid "Welcome"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:51 include/sdk/views/cwp-view.php:115
+msgid "License Verification"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:74
+msgid "Dummy Content"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:83
+msgid "Setup Completed!"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:90
+msgid "Setup Failed!"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:116
+msgid ""
+"Please verify your purchase by entering the license key available in your "
+"account."
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:122
+msgid "Enter Your Purchase Key"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:125
+msgid "Put your Envato product license key here.."
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:129
+msgid "Email Address (If you dont want to use admin email)"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:132
+msgid "This email will be used for managing CubeWP account on cubewp.com"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:136
+msgid "Verify License"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:149
+msgid "Required Plugins Installation"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:150
+msgid "These plugins are required to import dummy content"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:253
+msgid "Install Plugins"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:253
+msgid "Continue to Import Process"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:291
+msgid "Import Dummy Content for Theme"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:293
+msgid "Recommended Resources"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:311
+msgid "Minimum post_max_size: 128M"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:327
+msgid "Minimum max_execution_time: 300"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:343
+msgid "Minimum max_input_vars: 3000"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:359
+msgid "Minimum memory_limit: 256M"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:365
+msgid ""
+"Please match all recommended resources otherwise your import process might be "
+"disturbed."
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:369
+msgid "Import Data"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:374
+msgid "Skip Import"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:385
+msgid "Congrats! Setup Completed."
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:386
+msgid "You will be auto redirected to the CubeWP Dashboard in…"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:389
+msgid "seconds"
+msgstr ""
+
+#: include/sdk/views/cwp-view.php:400
+msgid "Sorry! There was an issue."
+msgstr ""
+
+#: include/settings.php:10 templates/headers/header-style-2.php:212
+msgid "General"
+msgstr ""
+
+#: include/settings.php:16
+msgid "Primary Color"
+msgstr ""
+
+#: include/settings.php:18
+msgid "Please select primary color for the text, hover or active states etc."
+msgstr ""
+
+#: include/settings.php:23
+msgid "Primary Alternative Color"
+msgstr ""
+
+#: include/settings.php:25
+msgid ""
+"Please select alternative color of primary color for the text, hover or active "
+"states etc."
+msgstr ""
+
+#: include/settings.php:30
+msgid "Secondary Color"
+msgstr ""
+
+#: include/settings.php:32
+msgid "Please select secondary color for the text, hover or active states etc."
+msgstr ""
+
+#: include/settings.php:37
+msgid "Secondary Alternative Color"
+msgstr ""
+
+#: include/settings.php:39
+msgid ""
+"Please select alternative color of secondary color for the text, hover or "
+"active states etc."
+msgstr ""
+
+#: include/settings.php:44
+msgid "FontAwesome Kit"
+msgstr ""
+
+#: include/settings.php:46
+msgid "Enter your FontAwesome kit script url."
+msgstr ""
+
+#: include/settings.php:52
+msgid "Transition Time"
+msgstr ""
+
+#: include/settings.php:53
+msgid ""
+"Please select the transition time for hover effect all over the website. (Below "
+"500 Millisecond Recommended)."
+msgstr ""
+
+#: include/settings.php:55
+msgid "100 Millisecond"
+msgstr ""
+
+#: include/settings.php:56
+msgid "200 Millisecond"
+msgstr ""
+
+#: include/settings.php:57
+msgid "300 Millisecond"
+msgstr ""
+
+#: include/settings.php:58
+msgid "400 Millisecond"
+msgstr ""
+
+#: include/settings.php:59
+msgid "500 Millisecond"
+msgstr ""
+
+#: include/settings.php:60
+msgid "600 Millisecond"
+msgstr ""
+
+#: include/settings.php:61
+msgid "700 Millisecond"
+msgstr ""
+
+#: include/settings.php:62
+msgid "800 Millisecond"
+msgstr ""
+
+#: include/settings.php:63
+msgid "900 Millisecond"
+msgstr ""
+
+#: include/settings.php:64
+msgid "1 Second"
+msgstr ""
+
+#: include/settings.php:65
+msgid "2 Second"
+msgstr ""
+
+#: include/settings.php:71
+msgid "Default Featured Image"
+msgstr ""
+
+#: include/settings.php:72
+msgid "Please select the default image for ads to be used if no image available."
+msgstr ""
+
+#: include/settings.php:77
+msgid "Website Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:78
+msgid "Please select the opacity value for overlay all over the website."
+msgstr ""
+
+#: include/settings.php:81
+msgid "Hidden Overlay"
+msgstr ""
+
+#: include/settings.php:82
+msgid "10% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:83
+msgid "20% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:84
+msgid "30% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:85
+msgid "40% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:86
+msgid "50% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:87
+msgid "60% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:88
+msgid "70% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:89
+msgid "80% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:90
+msgid "90% Overlay Opacity"
+msgstr ""
+
+#: include/settings.php:91
+msgid "Solid Overlay"
+msgstr ""
+
+#: include/settings.php:97
+msgid "Items Per Page"
+msgstr ""
+
+#: include/settings.php:98
+msgid "How many items you want to show on per page."
+msgstr ""
+
+#: include/settings.php:106
+msgid "Typography"
+msgstr ""
+
+#: include/settings.php:112
+msgid "Heading 1 (h1)"
+msgstr ""
+
+#: include/settings.php:125
+msgid "Heading 2 (h2)"
+msgstr ""
+
+#: include/settings.php:138
+msgid "Heading 3 (h3)"
+msgstr ""
+
+#: include/settings.php:151
+msgid "Heading 4 (h4)"
+msgstr ""
+
+#: include/settings.php:164
+msgid "Heading 5 (h5)"
+msgstr ""
+
+#: include/settings.php:177
+msgid "Heading 6 (h6)"
+msgstr ""
+
+#: include/settings.php:190
+msgid "Small Paragraph (.p-sm)"
+msgstr ""
+
+#: include/settings.php:203
+msgid "Medium Paragraph (.p-md)"
+msgstr ""
+
+#: include/settings.php:216
+msgid "Paragraph (p)"
+msgstr ""
+
+#: include/settings.php:229
+msgid "Large Paragraph (.p-lg)"
+msgstr ""
+
+#: include/settings.php:242
+msgid "Label"
+msgstr ""
+
+#: include/settings.php:255
+msgid "Overall Font"
+msgstr ""
+
+#: include/settings.php:268
+msgid "Anchor Tag (a)"
+msgstr ""
+
+#: include/settings.php:281
+msgid "Anchor Tag (a) Hover Color"
+msgstr ""
+
+#: include/settings.php:282
+msgid "Please select the text color on hover state."
+msgstr ""
+
+#: include/settings.php:290
+msgid "Header"
+msgstr ""
+
+#: include/settings.php:296
+msgid "Header Layout"
+msgstr ""
+
+#: include/settings.php:297
+msgid "Select header layout full-width or boxed."
+msgstr ""
+
+#: include/settings.php:300
+msgid "Boxed View"
+msgstr ""
+
+#: include/settings.php:301
+msgid "Full Width"
+msgstr ""
+
+#: include/settings.php:307
+msgid "Header Search On Home"
+msgstr ""
+
+#: include/settings.php:308
+msgid "Enable if you want to header search on home page."
+msgstr ""
+
+#: include/settings.php:314
+msgid "Home Header Search Shortcode"
+msgstr ""
+
+#: include/settings.php:315 include/settings.php:332
+msgid "Please put CubeWP search shortcode here."
+msgstr ""
+
+#: include/settings.php:324
+msgid "Header Search On Pages"
+msgstr ""
+
+#: include/settings.php:325
+msgid "Enable if you want to header search on inner pages."
+msgstr ""
+
+#: include/settings.php:331
+msgid "Pages Header Search Shortcode"
+msgstr ""
+
+#: include/settings.php:341
+msgid "Home Logo"
+msgstr ""
+
+#: include/settings.php:342
+msgid "Please select logo image for home page."
+msgstr ""
+
+#: include/settings.php:347
+msgid "Pages Logo"
+msgstr ""
+
+#: include/settings.php:348
+msgid "Please select logo image for pages(Other then home page)."
+msgstr ""
+
+#: include/settings.php:353
+msgid "Header Top Bar On Home"
+msgstr ""
+
+#: include/settings.php:354
+msgid "Enable if you want a header top bar on home page."
+msgstr ""
+
+#: include/settings.php:360
+msgid "Header Top Bar On Pages"
+msgstr ""
+
+#: include/settings.php:361
+msgid "Enable if you want a header top bar on pages."
+msgstr ""
+
+#: include/settings.php:367
+msgid "Header Bottom Bar On Home"
+msgstr ""
+
+#: include/settings.php:368
+msgid "Enable if you want a header bottom bar on home page."
+msgstr ""
+
+#: include/settings.php:374
+msgid "Header Bottom Bar On Pages"
+msgstr ""
+
+#: include/settings.php:375
+msgid "Enable if you want a header Bottom bar on pages."
+msgstr ""
+
+#: include/settings.php:381
+msgid "Show Inbox Quick Link"
+msgstr ""
+
+#: include/settings.php:382
+msgid "Enable if you want to show inbox quick link in header."
+msgstr ""
+
+#: include/settings.php:388
+msgid "Show Favorites Quick Link"
+msgstr ""
+
+#: include/settings.php:389
+msgid "Enable if you want to show favorites quick link in header."
+msgstr ""
+
+#: include/settings.php:395
+msgid "Post Type Landing Page Links"
+msgstr ""
+
+#: include/settings.php:396
+msgid "Enable if you want a top post type landing pages link on header top bar."
+msgstr ""
+
+#: include/settings.php:402
+msgid "Landing Page For General Ads"
+msgstr ""
+
+#: include/settings.php:403 include/settings.php:415 include/settings.php:427
+msgid "This must be an URL."
+msgstr ""
+
+#: include/settings.php:405 include/settings.php:417 include/settings.php:429
+msgid ""
+"This option empty if you dont want to show this post type in header top bar."
+msgstr ""
+
+#: include/settings.php:414
+msgid "Landing Page For Property Ads"
+msgstr ""
+
+#: include/settings.php:426
+msgid "Landing Page For Automotive Ads"
+msgstr ""
+
+#: include/settings.php:438
+msgid "Header Background Color For Home"
+msgstr ""
+
+#: include/settings.php:439
+msgid "Select the color for header area on home page."
+msgstr ""
+
+#: include/settings.php:445
+msgid "Header Shadow Color For Home"
+msgstr ""
+
+#: include/settings.php:446
+msgid "Select the shadow color for header area on home page."
+msgstr ""
+
+#: include/settings.php:452
+msgid "Header Top Background Color For Home"
+msgstr ""
+
+#: include/settings.php:453
+msgid "Select the color for header top area on home page."
+msgstr ""
+
+#: include/settings.php:462
+msgid "Header Bottom Background Color For Home"
+msgstr ""
+
+#: include/settings.php:463
+msgid "Select the color for header bottom area on home page."
+msgstr ""
+
+#: include/settings.php:472
+msgid "Header Background Color For Pages"
+msgstr ""
+
+#: include/settings.php:473
+msgid "Select the color for header area on inner pages."
+msgstr ""
+
+#: include/settings.php:479
+msgid "Header Shadow Color For Pages"
+msgstr ""
+
+#: include/settings.php:480
+msgid "Select the shadow color for header area on inner pages."
+msgstr ""
+
+#: include/settings.php:486
+msgid "Header Top Background Color For Pages"
+msgstr ""
+
+#: include/settings.php:487
+msgid "Select the color for header top area on inner pages."
+msgstr ""
+
+#: include/settings.php:496
+msgid "Header Bottom Background Color For Pages"
+msgstr ""
+
+#: include/settings.php:497
+msgid "Select the color for header bottom area on inner pages."
+msgstr ""
+
+#: include/settings.php:506
+msgid "Header Navigation Color For Home"
+msgstr ""
+
+#: include/settings.php:507
+msgid "Select the color for navigation text on home header."
+msgstr ""
+
+#: include/settings.php:513
+msgid "Header Navigation Color For Pages"
+msgstr ""
+
+#: include/settings.php:514
+msgid "Select the color for navigation text on inner pages header."
+msgstr ""
+
+#: include/settings.php:520
+msgid "Header Navigation Hover State Color For Home"
+msgstr ""
+
+#: include/settings.php:521
+msgid "Select the hover state color for navigation text on home header."
+msgstr ""
+
+#: include/settings.php:527
+msgid "Header Navigation Hover State Color For Pages"
+msgstr ""
+
+#: include/settings.php:528
+msgid "Select the hover state color for navigation text on inner pages header."
+msgstr ""
+
+#: include/settings.php:534
+msgid "Sticky Header On Home"
+msgstr ""
+
+#: include/settings.php:535
+msgid "Enable if you want sticky header on home page."
+msgstr ""
+
+#: include/settings.php:541
+msgid "Sticky Header On Inner Pages"
+msgstr ""
+
+#: include/settings.php:542
+msgid "Enable if you want sticky header on all inner pages."
+msgstr ""
+
+#: include/settings.php:548
+msgid "All Categories On Home Page Header"
+msgstr ""
+
+#: include/settings.php:549
+msgid ""
+"Enable if you want to show all categories navigation item on home page header."
+msgstr ""
+
+#: include/settings.php:555
+msgid "Home Page Header Google AdSense / Static Image"
+msgstr ""
+
+#: include/settings.php:556 include/settings.php:606
+msgid "You can select Either Google ads or Static Banner image with link."
+msgstr ""
+
+#: include/settings.php:559 include/settings.php:609
+msgid "Google AdSense"
+msgstr ""
+
+#: include/settings.php:560 include/settings.php:610
+msgid "Static Banner"
+msgstr ""
+
+#: include/settings.php:569
+msgid "Home All Categories Dropdown Ad Image"
+msgstr ""
+
+#: include/settings.php:570 include/settings.php:620
+msgid "Please select banner ads image for categories dropdown"
+msgstr ""
+
+#: include/settings.php:579
+msgid "Home Header Link to Ads Banner Image"
+msgstr ""
+
+#: include/settings.php:581 include/settings.php:631
+msgid "Home Category Dropdown Banner Image Link"
+msgstr ""
+
+#: include/settings.php:589
+msgid "Google AdSense Code"
+msgstr ""
+
+#: include/settings.php:591 include/settings.php:641
+msgid "Place your google AdSense code here for homepage category dropdown"
+msgstr ""
+
+#: include/settings.php:598
+msgid "All Categories On Inner Pages Header"
+msgstr ""
+
+#: include/settings.php:599
+msgid ""
+"Enable if you want to show all categories navigation item on all inner pages "
+"header."
+msgstr ""
+
+#: include/settings.php:605
+msgid "Inner Pages Header Google AdSense / Static Image"
+msgstr ""
+
+#: include/settings.php:619
+msgid "Inner Page All Categories Dropdown Ad Image"
+msgstr ""
+
+#: include/settings.php:629
+msgid "Inner Page Header Link to Ads Banner Image"
+msgstr ""
+
+#: include/settings.php:639
+msgid "Inner Page Header Google AdSense Code"
+msgstr ""
+
+#: include/settings.php:648
+msgid "Number of Categories"
+msgstr ""
+
+#: include/settings.php:649
+msgid "Total Number of Categories to display in header all categories dropdown"
+msgstr ""
+
+#: include/settings.php:657
+msgid "Ads Detail Page"
+msgstr ""
+
+#: include/settings.php:663
+msgid "Sticky Sidebar."
+msgstr ""
+
+#: include/settings.php:664
+msgid "Enable if you want sidebar to stick in the parent."
+msgstr ""
+
+#: include/settings.php:670
+msgid "Show Author Items On Item Details Page."
+msgstr ""
+
+#: include/settings.php:671
+msgid "Enable if you want to show all Author items."
+msgstr ""
+
+#: include/settings.php:677
+msgid "How Many Author Items To Show?"
+msgstr ""
+
+#: include/settings.php:678
+msgid ""
+"Enter the amount of author items you want to show on the detail page. Note "
+"layout will convert into carousal if items to display are more then 4."
+msgstr ""
+
+#: include/settings.php:687
+msgid "Show Related Items On Item Details Page."
+msgstr ""
+
+#: include/settings.php:688
+msgid ""
+"Enable if you want to show related items based on item Locations and Categories."
+msgstr ""
+
+#: include/settings.php:694
+msgid "How Many Related Items To Show?"
+msgstr ""
+
+#: include/settings.php:695
+msgid ""
+"Enter the amount of related items you want to show on the detail page. Note "
+"layout will convert into carousal if items to display are more then 4."
+msgstr ""
+
+#: include/settings.php:706
+msgid "Loop Layout"
+msgstr ""
+
+#: include/settings.php:715
+#, php-format
+msgid "Custom Field On %s Loop."
+msgstr ""
+
+#: include/settings.php:716
+#, php-format
+msgid "Enable if you want to show a custom field value on %s loop layout."
+msgstr ""
+
+#: include/settings.php:722
+#, php-format
+msgid "Custom Field Name For %s Loop."
+msgstr ""
+
+#: include/settings.php:723
+#, php-format
+msgid "Select the custom field you want to show in the %s loop layout."
+msgstr ""
+
+#: include/settings.php:732
+#, php-format
+msgid "Icon For Custom Field In %s Loop."
+msgstr ""
+
+#: include/settings.php:733
+#, php-format
+msgid ""
+"Enter the Font Awesome icon classes for custom field in the %s loop layout."
+msgstr ""
+
+#: include/settings.php:743
+msgid "Blog"
+msgstr ""
+
+#: include/settings.php:749
+msgid "Enable/Disable Banner on Blog Page"
+msgstr ""
+
+#: include/settings.php:750
+msgid "Enable if you want to show Banner on blog page."
+msgstr ""
+
+#: include/settings.php:756
+msgid "Blog Grid Style"
+msgstr ""
+
+#: include/settings.php:757
+msgid "Please select blog style for index or blog page."
+msgstr ""
+
+#: include/settings.php:760
+msgid "Style 1"
+msgstr ""
+
+#: include/settings.php:761
+msgid "Style 2"
+msgstr ""
+
+#: include/settings.php:762
+msgid "Style 3"
+msgstr ""
+
+#: include/settings.php:768
+msgid "Blog Banner Background Image"
+msgstr ""
+
+#: include/settings.php:769
+msgid "Please select image for blog page banner background."
+msgstr ""
+
+#: include/settings.php:777
+msgid "Enable/Disable Sidebar on Blog Page"
+msgstr ""
+
+#: include/settings.php:778
+msgid "Enable if you want to show sidebar on blog page."
+msgstr ""
+
+#: include/settings.php:784
+msgid "Blog Banner Title"
+msgstr ""
+
+#: include/settings.php:785
+msgid "Specify your banner title."
+msgstr ""
+
+#: include/settings.php:793
+msgid "Footer"
+msgstr ""
+
+#: include/settings.php:799
+msgid "Footer Logo"
+msgstr ""
+
+#: include/settings.php:800
+msgid "Please select logo image for footer."
+msgstr ""
+
+#: include/settings.php:805
+msgid "Footer Minimum Height"
+msgstr ""
+
+#: include/settings.php:806
+msgid "Please enter the minimum height for footer."
+msgstr ""
+
+#: include/settings.php:812
+msgid "Footer Background Color"
+msgstr ""
+
+#: include/settings.php:813
+msgid "Please select the background color for footer."
+msgstr ""
+
+#: include/settings.php:819
+msgid "Footer Background Image"
+msgstr ""
+
+#: include/settings.php:820
+msgid "Please select the background image for footer if any."
+msgstr ""
+
+#: include/settings.php:825
+msgid "Show Overlay On Background Image"
+msgstr ""
+
+#: include/settings.php:826
+msgid "Enable if you want to show an overlay on footer background image."
+msgstr ""
+
+#: include/settings.php:832
+msgid "Footer Text Color"
+msgstr ""
+
+#: include/settings.php:833
+msgid "Please select the text color for footer."
+msgstr ""
+
+#: include/settings.php:839
+msgid "Footer Text Hover State Color"
+msgstr ""
+
+#: include/settings.php:840
+msgid "Please select the hover state color for links on footer."
+msgstr ""
+
+#: include/settings.php:846
+msgid "Footer Columns"
+msgstr ""
+
+#: include/settings.php:847
+msgid "Please select the quantity of columns on footer."
+msgstr ""
+
+#: include/settings.php:850
+msgid "Show 1 Column On Footer"
+msgstr ""
+
+#: include/settings.php:851
+msgid "Show 2 Columns On Footer"
+msgstr ""
+
+#: include/settings.php:852
+msgid "Show 3 Columns On Footer"
+msgstr ""
+
+#: include/settings.php:853
+msgid "Show 4 Columns On Footer"
+msgstr ""
+
+#: include/settings.php:854
+msgid "Show 5 Columns On Footer"
+msgstr ""
+
+#: include/settings.php:855
+msgid "Show 6 Columns On Footer"
+msgstr ""
+
+#: include/settings.php:862
+msgid "Enable if you want to add sub footer."
+msgstr ""
+
+#: include/settings.php:868
+msgid "Sub Footer Background Color"
+msgstr ""
+
+#: include/settings.php:869
+msgid "Please select the background color for sub footer."
+msgstr ""
+
+#: include/settings.php:875
+msgid "Sub Footer Text Color"
+msgstr ""
+
+#: include/settings.php:876
+msgid "Please select the text color for sub footer."
+msgstr ""
+
+#: include/settings.php:882
+msgid "Sub Footer Text Hover State Color"
+msgstr ""
+
+#: include/settings.php:883
+msgid "Please select the hover state color for links on sub footer."
+msgstr ""
+
+#: include/settings.php:904
+msgid "Dashboard Help Page"
+msgstr ""
+
+#: include/settings.php:906
+msgid "Select the page to show on used Frontend Dashboard help button."
+msgstr ""
+
+#: sidebar.php:7
+msgid "There is no widget. You should add your widgets into"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Default Sidebar."
+msgstr ""
+
+#: single.php:37 templates/loop/blog-loop-style-1.php:30
+#: templates/loop/blog-loop-style-2.php:39
+#, php-format
+msgid "%s min read"
+msgstr ""
+
+#: single.php:49 templates/loop/blog-loop-style-1.php:28
+#: templates/loop/blog-loop-style-2.php:37
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: single.php:60
+msgid "Page"
+msgstr ""
+
+#: single.php:60
+msgid "Pages:"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:14
+#: templates/archive/archive-style-1.php:17
+msgid "Show Filters"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:15
+msgid "Hide Filters"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:21
+msgid "Filters"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:24
+msgid "Reset"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:47
+msgid "Show Map"
+msgstr ""
+
+#: templates/archive/archive-style-1.php:69
+msgid "Sort by:"
+msgstr ""
+
+#: templates/author/author-style-1.php:48
+msgid "Member Since:"
+msgstr ""
+
+#: templates/author/author-style-1.php:50
+msgid "Ads Posted:"
+msgstr ""
+
+#: templates/author/author-style-1.php:63
+msgid "Socials Link"
+msgstr ""
+
+#: templates/author/author-style-1.php:122
+msgid "Reviews"
+msgstr ""
+
+#: templates/author/author-style-1.php:132 templates/author/author-style-2.php:87
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/author/author-style-1.php:144 templates/author/author-style-2.php:174
+msgid "Published Ads"
+msgstr ""
+
+#: templates/author/author-style-1.php:175
+msgid "No Ad Found"
+msgstr ""
+
+#: templates/author/author-style-2.php:88
+msgid "Cancel Editing"
+msgstr ""
+
+#: templates/author/author-style-2.php:101
+msgid "Response Rate"
+msgstr ""
+
+#: templates/author/author-style-2.php:110
+msgid "Linked with"
+msgstr ""
+
+#: templates/author/author-style-2.php:113
+msgid "Email Confirmed"
+msgstr ""
+
+#: templates/author/author-style-2.php:122
+msgid "Google Connected"
+msgstr ""
+
+#: templates/author/author-style-2.php:128
+msgid "Facebook Connected"
+msgstr ""
+
+#: templates/author/author-style-2.php:136
+#, php-format
+msgid "Member Since %s"
+msgstr ""
+
+#: templates/author/author-style-2.php:147 templates/author/author-style-2.php:149
+msgid "All Ads"
+msgstr ""
+
+#: templates/author/author-style-2.php:159 templates/author/author-style-2.php:162
+msgid "All Reviews"
+msgstr ""
+
+#: templates/author/author-style-2.php:199
+msgid "Load More"
+msgstr ""
+
+#: templates/author/author-style-2.php:210
+msgid "No Ads Found"
+msgstr ""
+
+#: templates/author/author-style-2.php:240
+msgid "No Reviews Found"
+msgstr ""
+
+#: templates/footers/footer-style-1.php:12 templates/footers/footer-style-2.php:57
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: templates/footers/footer-style-1.php:22
+#, php-format
+msgid "To the top %s"
+msgstr ""
+
+#: templates/footers/footer-style-1.php:32
+#, php-format
+msgid "Powered by %s Classified %s %s WordPress %s Theme"
+msgstr ""
+
+#: templates/footers/footer-style-1.php:32
+msgid "https://classified.org/"
+msgstr ""
+
+#: templates/footers/footer-style-1.php:32
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: templates/footers/footer-style-2.php:57
+#, php-format
+msgid "Copyright &copy; %s %s"
+msgstr ""
+
+#: templates/headers/header-style-2.php:221
+msgid "Property"
+msgstr ""
+
+#: templates/headers/header-style-2.php:230
+msgid "Automotive"
+msgstr ""
+
+#: templates/loop/blog-loop-style-1.php:48
+msgid "Read more"
+msgstr ""
+
+#: templates/loop/blog-loop-style-3.php:64
+msgid "Read More"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:56 templates/loop/loop-style-1.php:57
+#: templates/loop/loop-style-1.php:75 templates/loop/loop-style-1.php:77
+#: templates/loop/loop-style-2.php:43 templates/loop/loop-style-2.php:62
+#: templates/loop/loop-style-2.php:64
+msgid "N/A"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:78 templates/loop/loop-style-2.php:65
+msgid "Your Ad Title"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:79
+msgid "Used"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:80
+msgid "Sale"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:95
+msgid "hot"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:133 templates/loop/loop-style-2.php:106
+msgid "Recommended"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:139
+msgid "Ad"
+msgstr ""
+
+#: templates/loop/loop-style-1.php:148
+msgid "Shippable"
+msgstr ""
+
+#: templates/loop/loop-style-2.php:66
+msgid "Your ad details"
+msgstr ""
+
+#: templates/loop/loop-views.php:35
+msgid "Invalid layout style."
+msgstr ""
+
+#: templates/modals/classified-modal-ad-type.php:12
+msgid "What do you like to post today?"
+msgstr ""
+
+#: templates/modals/classified-modal-boost.php:21
+#, php-format
+msgid "Boost %s"
+msgstr ""
+
+#: templates/modals/classified-modal-login-register.php:11
+msgid "Login to your account"
+msgstr ""
+
+#: templates/modals/classified-modal-login-register.php:12
+#, php-format
+msgid "Don't have any account? %sSignup%s"
+msgstr ""
+
+#: templates/modals/classified-modal-login-register.php:18
+msgid "Create new account"
+msgstr ""
+
+#: templates/modals/classified-modal-login-register.php:19
+#, php-format
+msgid "Have an account? %sLogin%s"
+msgstr ""
+
+#: templates/modals/classified-modal-report.php:22
+#, php-format
+msgid "Report %s"
+msgstr ""

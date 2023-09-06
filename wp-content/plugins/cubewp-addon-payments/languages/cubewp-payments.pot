@@ -1,0 +1,341 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 18:33+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: Cridio <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cube/classes/class-cubewp-expire-posts-transient.php:86
+msgid "Expired"
+msgstr ""
+
+#: cube/classes/class-cubewp-expire-posts-transient.php:91
+#, php-format
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cube/classes/class-cubewp-payment-hooks.php:177
+#: cube/classes/class-cubewp-payment-hooks.php:195
+#, php-format
+msgid "Success! %s is added successfully in cart"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-load.php:41
+#, php-format
+msgid ""
+"CubeWP Payments requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-load.php:82
+#, php-format
+msgid "CubeWP Payments license has expired, please renew your license at \"%1$s\""
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:134
+msgid "Plans for"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:214
+msgid "/year"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:216
+msgid "/month"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:218
+#, php-format
+msgid "%s Days"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:220
+#: cube/classes/class-cubewp-post-types-columns.php:74
+#: cube/classes/class-cubewp-post-types-columns.php:168
+#: cube/classes/class-cubewp-price-plans.php:155
+msgid "Lifetime"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:245
+#: cube/classes/class-cubewp-price-plans.php:231
+msgid "Best Seller"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:250
+#: cube/classes/class-cubewp-payments-price-plans.php:252
+msgid "Plan Featured Image"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:262
+msgid "Per Package"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:264
+#, php-format
+msgid "Per %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:275
+msgid "Unlimited"
+msgstr ""
+
+#: cube/classes/class-cubewp-payments-price-plans.php:282
+#, php-format
+msgid "Max. Posts: %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:40
+msgid "Plan Price"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:41
+msgid "Plan Duration"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:42
+msgid "Assosiated Post Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:43
+msgid "Plan Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:66
+#: cube/classes/class-cubewp-post-types-columns.php:176
+msgid "Free"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:72
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:89
+#: cube/classes/class-cubewp-price-plans.php:191
+msgid "Package"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:91
+msgid "Per Per Post"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:127
+msgid "Associated Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:128
+msgid "Payment Status"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:129
+msgid "Published Date"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:131
+msgid "Expired On"
+msgstr ""
+
+#: cube/classes/class-cubewp-post-types-columns.php:160
+msgid "N/A"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:42
+msgctxt "Post Type General Name"
+msgid "Pricing Plans"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:43
+msgctxt "Post Type Singular Name"
+msgid "Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:44
+#: cube/classes/class-cubewp-price-plans.php:46
+#: cube/classes/class-cubewp-price-plans.php:57
+msgid "Pricing Plans"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:45
+msgid "Parent Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:47
+msgid "View Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:48
+msgid "Add New Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:49
+msgid "Add New"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:50
+msgid "Edit Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:51
+msgid "Update Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:52
+msgid "Search Pricing Plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:53
+msgid "Not Found"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:54
+msgid "Not found in Trash"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:88
+msgid "Plan Fields"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:140
+msgid "Price"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:150
+msgid "Select Duration Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:155
+msgid "Per Year"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:155
+msgid "Per Month"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:155
+msgid "Custom"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:163
+msgid "Days"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:174
+msgid "Assign to Post Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:186
+msgid "Select Plan Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:191
+msgid "Pay Per Post"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:199
+msgid "No. of Post in this Package"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:203
+msgid "Enter Number of Posts in this Package"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:210
+msgid "Plan Featured Text"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:214
+msgid "Enter text for this plan"
+msgstr ""
+
+#: cube/classes/class-cubewp-price-plans.php:221
+msgid "Plan Image"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:40
+msgid "CubeWP Pricing Plans"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:111
+msgid "Widget Options"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:116
+msgid "Show Plans"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:118
+msgid "By Post Type"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:119
+msgid "All Plans"
+msgstr ""
+
+#: cube/classes/page-builders/elementor-widgets/class-cubewp-elementor-pricing-plans-widget.php:125
+msgid "Select Post Type"
+msgstr ""
+
+#: cube/helpers/functions.php:6
+msgid "Payment"
+msgstr ""
+
+#: cube/helpers/functions.php:13
+msgid "Paid Submission"
+msgstr ""
+
+#: cube/helpers/functions.php:15
+msgid "Enable to sell listings."
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:16
+msgid "Orders"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:47
+msgid "View All Orders"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:64
+msgid "Transaction ID"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:65
+msgid "Created At"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:66
+msgid "Status"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:67
+msgid "Total Paid"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:68
+msgid "Actions"
+msgstr ""
+
+#: cube/helpers/wc-dashboard.php:80
+msgid "View Details"
+msgstr ""

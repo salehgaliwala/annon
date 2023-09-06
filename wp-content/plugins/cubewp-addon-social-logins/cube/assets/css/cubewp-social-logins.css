@@ -1,0 +1,99 @@
+.cubewp-social-logins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cubewp-social-logins.cubewp-social-logins-placement-bottom {
+    margin-top: -25px;
+}
+
+.cwp-field-container.cwp-field-social-login .cubewp-social-logins.cubewp-social-logins-placement-bottom {
+    margin: 0;
+}
+
+.cubewp-social-logins .cubewp-social-login-separator {
+    width: 100%;
+    margin: 0 0 25px 0;
+    text-align: center;
+    position: relative;
+}
+
+.cwp-user-register .cubewp-social-logins .cubewp-social-login-separator {
+    margin-bottom: 0;
+}
+
+.cubewp-social-logins.cubewp-social-logins-placement-top .cubewp-social-login-separator {
+    margin-top: 15px;
+}
+
+.cubewp-social-logins .cubewp-social-login-separator span {
+    font-size: 16px;
+    line-height: 1;
+    padding: 0 20px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+.cubewp-social-logins .cubewp-social-login-separator:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background: #d4dcff;
+    z-index: 1;
+}
+
+.cubewp-social-logins .cubewp-social-login {
+    min-width: calc((100% / 2) - 15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #d4dcff;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.cubewp-social-logins .cubewp-social-login:first-of-type {
+    margin-right: 8px;
+}
+
+.cubewp-social-logins .cubewp-social-login:last-of-type {
+    margin-left: 7px;
+}
+
+.cubewp-social-logins.cubewp-social-logins-full .cubewp-social-login {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.cubewp-social-logins .cubewp-social-login svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 0;
+}
+
+.cubewp-social-logins .cubewp-social-login p {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+
+.cubewp-social-logins .cubewp-social-login a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,372 @@
+.cwp-user-dashboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100% !important;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs {
+    margin: 0;
+    min-width: 170px;
+    max-width: 250px;
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 25px 0px 25px 0;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li {
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li a {
+    padding: 15px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li a i, .cwp-user-dashboard .cwp-user-dashboard-tabs li a svg {
+    font-size: 18px;
+    line-height: 14px;
+    width: 14px;
+    height: 14px;
+    margin: 0 15px 0 0;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li a:hover,
+.cwp-user-dashboard .cwp-user-dashboard-tabs li a:focus {
+    outline: none;
+    color: #009dff;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li.cwp-active-tab::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background: #007BFF;
+    border-radius: 6px;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tabs li.cwp-active-tab a {
+    background-color: #F2F8FF;
+    color: #007BFF;
+    font-weight: 500;
+    margin-left: 12px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cwp-table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    box-shadow: 0px 1px 4px #15223214;
+    border-radius: 5px;
+}
+
+.cwp-table-responsive table {
+    width: 100%;
+    min-width: 935px;
+    caption-side: bottom;
+    border-collapse: collapse;
+    border: none;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cwp-user-dashboard-tables th {
+    min-width: 180px;
+}
+
+.cwp-user-dashboard-tables th,
+.cwp-user-dashboard-tables td {
+    text-align: center;
+}
+
+th.cwp-dashboard-listing-title {
+    text-align: left;
+    padding-left: 100px;
+}
+
+th.cwp-saved-list-title {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.cwp-user-dashboard-tables td {
+    font-size: 14px;
+}
+
+table.cwp-user-dashboard-tables tr {
+    background: #fff;
+    border-bottom: 2px solid #F5F6FA;
+}
+
+table.cwp-user-dashboard-tables tr.cwp-dashboard-list-head::after {
+    border: none;
+}
+
+table.cwp-user-dashboard-tables tr.cwp-dashboard-list-head {
+    background: #F5F6FA;
+    height: 55px;
+}
+
+.cwp-dashboard-list-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.cwp-dashboard-fet-img {
+    width: 80px;
+    border-radius: 5px;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.cwp-dashboard-list-title-content .cwp-dashboard-list-content {
+    text-align: left;
+}
+
+.cwp-dashboard-list-content>a {
+    font-weight: 500;
+}
+
+table.cwp-user-dashboard-tables tr .cwp-dashboard-list-content ul.cwp-loop-terms {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.cwp-dashboard-list-content ul.cwp-loop-terms li {
+    list-style: none;
+    margin: 0 12px 0 0;
+    position: relative;
+}
+
+.cwp-dashboard-list-content ul.cwp-loop-terms li a {
+    color: #727272;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cwp-dashboard-list-content ul.cwp-loop-terms li:not(:last-child):after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    bottom: 3px;
+    width: 1px;
+    background: #727272;
+    right: -6px;
+}
+
+.status-dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cwp-pending-list.status-dot {
+    background-color: #FFA500;
+}
+
+.cwp-publish-list.status-dot {
+    background-color: #75d69c;
+}
+
+.cwp-expired-list.status-dot {
+    background-color: #dc3545;
+}
+
+span.cwp-active-list.status-dot {
+    background-color: #75d69c;
+}
+
+.cwp-main.cwp-saved-post {
+    padding: 10px 18px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #000;
+    margin: 0 5px;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+.cwp-dasboard-list-action span.cwp-main.cwp-saved-post svg:first-child {
+    display: block;
+}
+.cwp-dasboard-list-action,
+.cwp-dasboard-list-status {
+    display: inline-block;
+    position: relative;
+}
+
+span.cwp-dashboard-tooltip {
+    position: absolute;
+    top: calc(-100% - 5px);
+    font-weight: 700;
+    padding: 10px;
+    background: #fff;
+    text-transform: capitalize;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #44444f1a;
+    white-space: nowrap;
+}
+
+.cwp-dasboard-list-status span.cwp-dashboard-tooltip {
+    top: -40px;
+}
+
+.cwp-dashboard-tooltip:after {
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 9px solid #fff;
+    top: 100%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cwp-dasboard-list-status .cwp-dashboard-tooltip:after {
+    right: 35px;
+}
+
+.cwp-dasboard-list-action:hover span.cwp-dashboard-tooltip,
+.cwp-dasboard-list-status:hover span.cwp-dashboard-tooltip {
+    display: block;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tab-content-container .cwp-user-dashboard-tab-content-post-action {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    display: inline-flex;
+    color: #000;
+    margin: 0 5px;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tab-content-container .cwp-user-dashboard-tab-content-post-action:focus {
+    background: #007BFF;
+    color: #fff;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tab-content-container {
+    width: 100%;
+    padding: 25px;
+    background-color: #F2F8FF;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden; 
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tab-content-container .cwp-user-dashboard-tab-content {
+    display: block;
+    margin: 0 auto;
+}
+
+.cwp-user-dashboard .cwp-user-dashboard-tab-content-container .cwp-user-dashboard-tab-content:not(.cwp-active-tab-content) {
+    display: none;
+}
+
+/*------Pagination-------*/
+.cwp-pagination {
+    display: block;
+    float: left;
+    margin: 30px 0;
+}
+
+.cwp-pagination ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cwp-pagination ul li {
+    list-style: none;
+    line-height: 12px;
+}
+
+.cwp-pagination ul li a,
+.cwp-pagination ul li a:focus {
+    color: #7e84a3;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cwp-pagination ul li.active a {
+    background: #007BFF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 18px;
+}
+
+.cwp-pagination ul li svg {
+    display: block;
+}
+.order-again {
+    display: none;
+}
+@media (max-width: 991px) {
+	.cwp-user-dashboard .cwp-user-dashboard-tabs {
+		min-width: 60px;
+		max-width: 60px;
+		padding: 10px 0;
+	}
+	.cwp-user-dashboard .cwp-user-dashboard-tabs li {
+		width: 60px;
+		overflow: hidden;
+	}
+	.cwp-user-dashboard .cwp-user-dashboard-tabs li a,
+	.cwp-user-dashboard .cwp-user-dashboard-tabs li.cwp-active-tab a {
+		color: transparent;
+	}
+	.cwp-user-dashboard .cwp-user-dashboard-tabs li a i {
+		color: #007BFF;
+	}
+	.cwp-user-dashboard .cwp-user-dashboard-tab-content-container{
+		padding: 10px;
+	}
+}
+.cwp-empty-posts {
+    background: #ffffff;
+    height: 100vh;
+    text-align: center;
+}
+.cwp-empty-posts h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+.cwp-empty-posts p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+.cwp-empty-img {
+    margin: auto;
+}

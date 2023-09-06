@@ -1,0 +1,1002 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-28 17:38+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: Cridio <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cube/classes/class-cubewp-emails.php:144
+msgid "Email Template updated."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:145
+msgid "Email Template published."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:146
+msgid "Email Template submitted."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:147
+msgid "Email Template draft updated."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:154
+#: cube/classes/class-cubewp-emails.php:347
+msgid "Email Recipient"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:155
+msgid "Email Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:176
+msgid "Email Content"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:185
+msgid "Email Subject"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:193
+msgid "Shortcodes"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:227
+msgid "Website Title"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:231
+msgid "Website URL"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:235
+msgid "User Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:239
+msgid "User Profile URL"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:243
+msgid "Post Title (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:247
+msgid "Post URL (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:251
+msgid "Post Date (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:255
+msgid "Post Excerpt (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:259
+msgid "Post Thumbnail URL (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:263
+msgid "Post Type Label (If Applicable)"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:273
+msgid "Email Templates"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:274
+msgid "Email Template"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:319
+msgid "Email Template Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:355
+msgid "Admin"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:356
+msgid "User"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:378
+msgid "Admin Email"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:382
+msgid ""
+"Enter an alternative email address for admin notifications. If left blank, the "
+"website admin email will be used."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:383
+msgid "Email or leave empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:401
+#: cube/classes/class-cubewp-emails.php:424
+msgid "Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:448
+#: cube/classes/class-cubewp-emails.php:473
+#: cube/modules/builder/class-cubewp-user-dashboard.php:285
+msgid "Post Types"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:499
+#: cube/classes/class-cubewp-emails.php:524
+msgid "User Roles"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:557
+msgid "New Post Submitted"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:563
+msgid "Post Updated"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:569
+#: cube/classes/class-cubewp-emails.php:606
+msgid "Post Published"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:575
+#: cube/classes/class-cubewp-emails.php:612
+msgid "Post Expired"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:581
+msgid "New User Registration"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:587
+#: cube/classes/class-cubewp-emails.php:624
+msgid "User Updated"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:594
+msgid "User Post Submitted"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:600
+msgid "User Post Updated"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:618
+msgid "User Registered"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:690
+msgid "Emails"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:697
+msgid "Enable Emails"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:698
+msgid "Enable if you want to send cubewp emails."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:704
+msgid "Refresh Email Fields"
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:705
+msgid ""
+"If you have added a new CubeWP addon and want to load new email settings, you "
+"can enable this option and then reload the page. After that, you may disable it "
+"again."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:793
+msgid ""
+"If you're encountering missing options or settings, please go to CubeWP "
+"Settings > Email and enable the \"Refresh Email Fields\" option."
+msgstr ""
+
+#: cube/classes/class-cubewp-emails.php:795
+msgid ""
+"Once you've acquired the necessary options or settings, feel free to disable "
+"this option."
+msgstr ""
+
+#: cube/classes/class-cubewp-enqueue.php:239
+msgid "Something Went Wrong. Try Again Later."
+msgstr ""
+
+#: cube/classes/class-cubewp-enqueue.php:273
+#: cube/classes/class-cubewp-enqueue.php:290
+msgid "Are you sure, You want to proceed?"
+msgstr ""
+
+#: cube/classes/class-cubewp-enqueue.php:281
+msgid "Maximum Upload Size Exceeded."
+msgstr ""
+
+#: cube/classes/class-cubewp-enqueue.php:282
+msgid "Maximum Upload Image Limit Exceeded."
+msgstr ""
+
+#: cube/classes/class-cubewp-frontend-admin.php:39
+#, php-format
+msgid ""
+"CubeWP Frontend Pro license has expired, please renew your license at \"%1$s\""
+msgstr ""
+
+#: cube/classes/class-cubewp-frontend-admin.php:181
+#: cube/classes/class-cubewp-frontend-admin.php:189
+msgid "Quick Signup"
+msgstr ""
+
+#: cube/classes/class-cubewp-frontend-recaptcha.php:82
+msgid "Error! Please Check Captcha."
+msgstr ""
+
+#: cube/classes/class-cubewp-frontend-recaptcha.php:91
+msgid "Captcha Error! Please Disable VPN Or Try Again Later."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:116
+#: cube/classes/class-cubewp-quick-signup.php:179
+msgid "Sorry! UserName field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:124
+msgid "Sorry! Password field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:158
+msgid "Please verify your email before post submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:166
+msgid "Email verification is required for post submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:187
+msgid "Sorry! Email field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:199
+msgid "Password field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:207
+msgid "Password does not match. Please try again."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:217
+msgid "Sorry! UserName already exists."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:226
+msgid "Sorry! Email already exists."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:260
+msgid "User Registration Password"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:261
+msgid "Thanks for registering to "
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:261
+msgid "UserName: "
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:273
+msgid ""
+"Sorry! Quick SignUp field is enabled so make sure you have added it into the "
+"form."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:295
+msgid "Security verification failed"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:305
+msgid "Email Sent. Please check your inbox."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:308
+msgid "Please enter correct email"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:314
+msgid "Email is verified."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:316
+msgid "Token invalid or expired"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:331
+msgid "Email Verification"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:334
+msgid "Hello,"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:335
+msgid ""
+"Please use the following One-Time Password (OTP) to verify your email address:"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:337
+msgid "If you did not request this verification, please ignore this email."
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:338
+msgid "Thank you for using our service!"
+msgstr ""
+
+#: cube/classes/class-cubewp-quick-signup.php:339
+msgid "Best regards,"
+msgstr ""
+
+#: cube/classes/class-cubewp-single-cpt.php:181
+msgid "Save"
+msgstr ""
+
+#: cube/classes/class-cubewp-single-cpt.php:224
+msgid "Tags"
+msgstr ""
+
+#: cube/classes/class-cubewp-single-cpt.php:302
+#, php-format
+msgid "Invalid Field Type: %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:41
+#: cube/classes/class-cubewp-user-ajax-hooks.php:284
+#: cube/classes/shortcodes/class-cubewp-frontend-post-types-form.php:161
+msgid "Sorry! Security Verification Failed."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:65
+msgid "The default username field doesn't exist."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:72
+#: cube/classes/class-cubewp-user-ajax-hooks.php:497
+#: cube/classes/class-cubewp-user-ajax-hooks.php:551
+msgid "The username field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:79
+msgid "The default email field doesn't exist."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:86
+msgid "The email field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:93
+msgid "The email address is invalid."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:100
+msgid "This username already exists."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:107
+#: cube/classes/class-cubewp-user-ajax-hooks.php:315
+msgid "This Email already exists."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:116
+#: cube/classes/class-cubewp-user-ajax-hooks.php:324
+msgid "Password Mismatch."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:255
+msgid "Go to your inbox or spam/junk and get your password"
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:262
+msgid "Registration and login were successful; the page will redirect shortly."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:308
+msgid "This Username already exists."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:473
+msgid "Your profile has been updated successfully."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:504
+msgid "The password field is empty."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:524
+msgid "Wrong username or password."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:531
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:559
+msgid ""
+"Password Reset Mail Sent Successfully. Please Check Your Email And Also Look "
+"Into Spam."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:564
+msgid "Something Went Wrong, Try Again Later."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:570
+msgid "This Username Or Email Doesn't Exist."
+msgstr ""
+
+#: cube/classes/class-cubewp-user-ajax-hooks.php:595
+#, php-format
+msgid "Success! Your %s has been published."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-post-types-form.php:106
+msgid "Submit"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-post-types-form.php:186
+msgid "Sorry! You can't update this post."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-post-types-form.php:227
+msgid "Success! The submission was successful."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:89
+msgid "Dashboard is empty!."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:289
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:334
+msgid "No Saved Posts"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:289
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:334
+msgid "There are no posts saved yet."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:302
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:411
+msgid "TITLE"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:303
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:415
+msgid "ACTIONS"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:314
+msgid "Remove"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:412
+msgid "PUBLISHED DATE"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:413
+msgid "VIEWS"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:414
+msgid "STATUS"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:450
+msgid "View"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:461
+msgid "Edit"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:473
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:496
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:496
+#, php-format
+msgid "There are no posts associated with %s."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-dashboard.php:530
+msgid "Post Deleted"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:40
+#: cube/classes/shortcodes/class-cubewp-frontend-user-registration.php:41
+#: cube/modules/builder/class-cubewp-user-dashboard.php:289
+msgid "Logout"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:41
+#: cube/classes/shortcodes/class-cubewp-frontend-user-registration.php:42
+#, php-format
+msgid "You have already logged in. %s if you want to proceed."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:57
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:66
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:78
+msgid "Login"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:64
+msgid "Forget Password?"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:64
+msgid "Reset"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:71
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:80
+msgid "Reset Password"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-login.php:78
+msgid "Go Back To"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:73
+msgid "Update"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:92
+msgid "Delete My Account & Content"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:94
+msgid "Download My Details"
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:230
+msgid "Security verification failed."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:237
+msgid "User deleted successfully."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:243
+msgid "An error occurred while deleting the user."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-profile.php:249
+msgid "This user cannot be deleted."
+msgstr ""
+
+#: cube/classes/shortcodes/class-cubewp-frontend-user-registration.php:84
+msgid "Register"
+msgstr ""
+
+#: cube/helpers/functions.php:199
+msgid "Instant Sign In/Sign Up"
+msgstr ""
+
+#: cube/helpers/functions.php:201
+msgid ""
+"If you want to enable quick sign in or signup on post type submission form then "
+"enable this option."
+msgstr ""
+
+#: cube/helpers/functions.php:206
+msgid "Enable Password"
+msgstr ""
+
+#: cube/helpers/functions.php:208
+msgid ""
+"If you want to enable password field with signup on post type submission form "
+"then enable this option."
+msgstr ""
+
+#: cube/helpers/functions.php:216
+msgid "Enable Email Verification"
+msgstr ""
+
+#: cube/helpers/functions.php:218
+msgid ""
+"Enable If you want to setup email verification with signup on post type "
+"submission form"
+msgstr ""
+
+#: cube/helpers/functions.php:226
+msgid "Enable GDPR Compliance"
+msgstr ""
+
+#: cube/helpers/functions.php:228
+msgid "Enable GDPR Compliance on User Profile Form"
+msgstr ""
+
+#: cube/helpers/functions.php:241
+msgid "URL Config"
+msgstr ""
+
+#: cube/helpers/functions.php:248
+msgid "Frontend Dashboard Page"
+msgstr ""
+
+#: cube/helpers/functions.php:249 cube/helpers/functions.php:257
+msgid "This must be an URL."
+msgstr ""
+
+#: cube/helpers/functions.php:251
+msgid ""
+"Select the page used for the Frontend Dashboard (Page must include the "
+"Dashboard Shortcode)"
+msgstr ""
+
+#: cube/helpers/functions.php:256
+msgid "Price Plan Page"
+msgstr ""
+
+#: cube/helpers/functions.php:259
+msgid ""
+"Select the page used for Price Plans (Page must include the Price Plan "
+"Shortcode)"
+msgstr ""
+
+#: cube/helpers/functions.php:265
+msgid "Submit/Edit Post Page"
+msgstr ""
+
+#: cube/helpers/functions.php:266
+msgid ""
+"Select the page used for any Custom Post Submission (Page must include the Post "
+"Type Submit Shortcode)"
+msgstr ""
+
+#: cube/helpers/functions.php:282
+msgid "reCAPTCHA Config"
+msgstr ""
+
+#: cube/helpers/functions.php:289
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: cube/helpers/functions.php:291
+msgid "Enable if you reCAPTCHA on your CubeWP forms."
+msgstr ""
+
+#: cube/helpers/functions.php:296
+msgid "Select reCAPTCHA Type"
+msgstr ""
+
+#: cube/helpers/functions.php:298
+msgid "Select the type of reCAPTCHA you want to use on to your CubeWP forms."
+msgstr ""
+
+#: cube/helpers/functions.php:300
+msgid "Google reCAPTCHA v2 Checkbox"
+msgstr ""
+
+#: cube/helpers/functions.php:310
+msgid "Site Key"
+msgstr ""
+
+#: cube/helpers/functions.php:312
+msgid "Please enter google reCAPTCHA v2 Or v3 site key here."
+msgstr ""
+
+#: cube/helpers/functions.php:320
+msgid "Secret Key"
+msgstr ""
+
+#: cube/helpers/functions.php:322
+msgid "Please enter google reCAPTCHA v2 Or v3 secret key here."
+msgstr ""
+
+#: cube/helpers/functions.php:341
+msgid "Admin Moderation"
+msgstr ""
+
+#: cube/helpers/functions.php:362
+#, php-format
+msgid "Enable Moderation For %s"
+msgstr ""
+
+#: cube/helpers/functions.php:363
+#, php-format
+msgid "Disable Moderation For %s"
+msgstr ""
+
+#: cube/helpers/functions.php:370
+msgid "Select Option"
+msgstr ""
+
+#: cube/helpers/functions.php:378
+#, php-format
+msgid ""
+"Enabling this will require %s to be approved by an admin before publishing. If "
+"disabled, %s will automatically publish after submission and payment, if "
+"applicable.<br>Note: If paying via Bank Transfer or similar payment method, %s "
+"will still require payment approval to be published."
+msgstr ""
+
+#: cube/helpers/functions.php:392
+msgid "CubeWP Login"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-builder-admin.php:103
+#: cube/modules/builder/class-cubewp-loop-builder.php:201
+#: cube/modules/builder/class-cubewp-post-types-form.php:37
+msgid "WordPress Default Fields"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-builder-admin.php:227
+#: cube/modules/builder/class-cubewp-user-dashboard.php:250
+#: cube/modules/builder/class-cubewp-user-dashboard.php:253
+msgid "Select User Role"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-builder-admin.php:246
+msgid "Custom Fields Section"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:53
+msgid "Default Style"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:75
+msgid "Post Loop Generator (Beta)"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:79
+#: cube/modules/builder/class-cubewp-user-dashboard.php:371
+msgid "Save Changes"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:128
+#: cube/modules/builder/class-cubewp-post-types-form.php:189
+#: cube/modules/builder/class-cubewp-single-layout.php:197
+msgid "Select Post Type"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:174
+msgid "No Post Type Found"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:182
+msgid "Excerpt"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:187
+msgid "Post Link"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:192
+msgid "Post Date"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:223
+#: cube/modules/builder/class-cubewp-post-types-form.php:73
+#: cube/modules/builder/class-cubewp-single-layout.php:72
+msgid "Taxonomies"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:245
+msgid "Author"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:253
+msgid "Author Name"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:254
+msgid "Author Link"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:255
+msgid "Author Avatar"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:261
+msgid "CubeWP UI"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:269
+msgid "Add | Remove Save"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:350
+msgid "Associated Taxonomies"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:451
+#: cube/modules/builder/class-cubewp-loop-builder.php:460
+msgid "Loop Settings"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:464
+msgid "Loop Container Classes"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:476
+msgid "Enable Loop For This Post Type"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:479
+msgid "No"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:480
+msgid "Yes"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:499
+msgid "Loop Layout HTML"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:515
+msgid "Add CSS or JS into CubeWP settings > CSS & JS."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-loop-builder.php:518
+#, php-format
+msgid "%sLearn more%s about Loop Builder."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-single-layout.php:38
+msgid "Custom Cubes"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-single-layout.php:214
+msgid "Author Details"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-single-layout.php:219
+#: cube/modules/builder/class-cubewp-single-layout.php:247
+msgid "Shortcode"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-single-layout.php:227
+msgid "Comments"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:72
+msgid "User Dashboard Builder"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:89
+#: cube/modules/builder/class-cubewp-user-dashboard.php:169
+msgid "Icon"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:90
+#: cube/modules/builder/class-cubewp-user-dashboard.php:168
+msgid "Title"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:91
+#: cube/modules/builder/class-cubewp-user-dashboard.php:170
+msgid "User Role"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:92
+#: cube/modules/builder/class-cubewp-user-dashboard.php:174
+#: cube/modules/builder/class-cubewp-user-dashboard.php:265
+msgid "Content Type"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:93
+msgid "Tab ID"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:112
+msgid "Add New Tab"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:227
+msgid "Set your tab title here.."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:228
+msgid "Tab Title"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:239
+msgid "Your icon here"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:240
+msgid "Tab Icon"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:242
+msgid "You can use this field to pass icon class to frontend user dashboard tab."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:255
+msgid ""
+"Do not select any role if you want to show this tab to all registered users"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:264
+msgid "Select content type"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:286
+msgid "Custom Tab"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:287
+msgid "Page content"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:288
+msgid "Saved"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:321
+msgid "Tab Content (Post Types)"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:324
+msgid "This tab will show user posts with action buttons."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:336
+msgid " ex: dashicons-admin-post"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:337
+msgid "Tab Content (Custom content)"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:340
+msgid "This tab will show the custom content that you will enter here."
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:351
+msgid "Tab Content (Pages)"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:354
+msgid "This tab will show your selected page content"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:373
+msgid "Get Shortcode"
+msgstr ""
+
+#: cube/modules/builder/class-cubewp-user-dashboard.php:431
+msgid "More Icons"
+msgstr ""

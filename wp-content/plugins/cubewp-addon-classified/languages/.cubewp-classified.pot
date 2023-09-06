@@ -1,0 +1,2787 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-03 11:36+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: Cridio <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/class-classified-elementor-widgets.php:150
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: classes/class-classified-elementor-widgets.php:150
+#: classes/class-classified-elementor-widgets.php:166
+#: classes/class-classified-elementor-widgets.php:182
+#: classes/class-classified-elementor-widgets.php:209
+msgid "Classified"
+msgstr ""
+
+#: classes/class-classified-elementor-widgets.php:150
+#: classes/class-classified-elementor-widgets.php:166
+msgid "Elementor"
+msgstr ""
+
+#: classes/class-classified-elementor-widgets.php:166
+#: classes/class-classified-elementor-widgets.php:182
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: classes/class-classified-elementor-widgets.php:182
+msgid "PHP"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:51
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:430
+msgid "Sorry! Please login/register to send offers."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:54
+#: include/classified-ajax.php:7 include/classified-ajax.php:37
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:226
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:495
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:571
+msgid "Nonce Security Error"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:61
+msgid "Request Not Found."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:65
+msgid "Request Deleted"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:101
+msgid "Saved Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:102
+msgid "View and delete your saved ads here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:107
+#: classes/class-classified-frontend-dashboard.php:231
+#, php-format
+msgid "Total Ads: %s"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:113
+msgid "Title & Description"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:114
+#: classes/class-classified-frontend-dashboard.php:248
+#: classes/class-classified-frontend-dashboard.php:1087
+#: classes/class-classified-frontend-dashboard.php:1340
+#: classes/class-classified-plugin-setup.php:666
+msgid "Price"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:115
+#: classes/class-classified-plugin-setup.php:564
+#: classes/class-classified-plugin-setup.php:627
+msgid "Condition"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:116
+msgid "Expire In"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:117
+#: classes/class-classified-frontend-dashboard.php:370
+msgid "Views"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:118
+#: classes/class-classified-frontend-dashboard.php:250
+#: classes/class-classified-frontend-dashboard.php:1089
+#: classes/class-classified-frontend-dashboard.php:1343
+msgid "Actions"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:154
+#: classes/class-classified-frontend-dashboard.php:309
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:50
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:53
+msgid "Unlimited"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:160
+#: classes/class-classified-frontend-dashboard.php:317
+msgid "Expired"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:182 include/helper.php:395
+#: include/helper.php:415 include/helper.php:429
+msgid "View"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:200
+#: classes/class-classified-frontend-dashboard.php:410
+#: classes/class-classified-frontend-dashboard.php:1274
+#: classes/class-classified-frontend-dashboard.php:1567
+msgid "No Results"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:201
+msgid "No Posts Found"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:202
+msgid "There are no saved posts."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:225
+msgid "My Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:226
+msgid "You can View Edit manage and delete your ads here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:234
+msgid "Ad Type:"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:236
+msgid "All Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:246
+msgid "Title"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:247
+msgid "Category"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:249
+msgid "Stats"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:260
+#, php-format
+msgid "Submitted %s ago"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:281
+msgid "See All"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:301
+msgid "Pending"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:354
+msgid "Expires in:"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:379
+msgid "Leads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:411
+msgid "No Posts Found!"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:412
+msgid "There are no posts associated."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:562
+msgid "Dashboard Overview"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:563
+#, php-format
+msgid "Today, %s"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:576
+msgid "Active Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:587
+msgid "Expired Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:598
+msgid "Sold Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:612
+msgid "Boosted Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:629
+msgid "Total Views"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:641
+msgid "Total Leads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:653
+msgid "Total Reviews"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:679
+msgid "Complete AD Details"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:682
+#, php-format
+msgid "%s%s Completed"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:688
+msgid "Complete this action to get more reach."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:692
+msgid "Complete Now"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:709
+msgid "Avatar Of This User"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:711
+#, php-format
+msgid ""
+"%s Sent a request to you to rate about the item you have purchased or sell."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:714
+msgid ""
+"If you can take out 2 minutes to share a review, it will help many customers "
+"like yourself make the right choice."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:719
+msgid "View And Rate Profile"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:723
+msgid "Ignore"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:737
+msgid "Your Avatar"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:739
+msgid "Profile completion"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:750
+msgid "Complete Your Profile Now"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:777
+#, php-format
+msgid "%s  is doing good"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:779
+msgid "Reach"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:780
+#, php-format
+msgid "%s Views"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:784
+msgid "Boost now and get even more reach"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:787
+msgid "Boost Now"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:801
+msgid "Action's Required"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:814
+msgid "Expiring Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:818
+#, php-format
+msgid "There are %s ads about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:822
+#, php-format
+msgid "There is %s ad about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:826
+msgid "There is no ad about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:835
+msgid "Expiring Promotions"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:839
+#, php-format
+msgid "There are %s campaings about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:843
+#, php-format
+msgid "There is %s campaing about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:847
+msgid "There is no campaing about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:856
+msgid "Expiring Packages"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:857
+msgid "Your packages are about to expire"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:863
+#: classes/class-classified-frontend-dashboard.php:872
+msgid "Package Name"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:864
+#: classes/class-classified-frontend-dashboard.php:873
+msgid "Expire in"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:868
+#: classes/class-classified-frontend-dashboard.php:877
+msgid "Renew"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:891
+msgid "User Profile"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:892
+msgid "View and edit your profile here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:909
+msgid "Pricing and Packages"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:910
+msgid "View and change your packages here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:918
+msgid "Purchased Plans"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:922
+msgid "Plan"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:923
+msgid "# Of Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:924
+msgid "Duration"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:925
+msgid "Media"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:926
+msgid "Action"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:959
+msgid "Ad"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:961
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:23
+msgid "Ads"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:969
+#, php-format
+msgid "%s %s Left"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:985
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:48
+#, php-format
+msgid "%s Days"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:990
+msgid "Submit Ad Now"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1002
+msgid "No Purchased Plan Found."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1019
+msgid "Conversations"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1020
+msgid "View all conversations here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1037
+msgid "Sales"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1038
+msgid "View all received orders here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1059
+#: classes/class-classified-frontend-dashboard.php:1312
+msgid "View All Orders"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1084
+#: classes/class-classified-frontend-dashboard.php:1337
+msgid "Item Details"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1085
+#: classes/class-classified-frontend-dashboard.php:1338
+msgid "Transaction ID"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1086
+#: classes/class-classified-frontend-dashboard.php:1339
+msgid "Placed At"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1088
+#: classes/class-classified-frontend-dashboard.php:1342
+msgid "Status"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1133
+#: classes/class-classified-frontend-dashboard.php:1135
+#: classes/class-classified-frontend-dashboard.php:1387
+#: classes/class-classified-frontend-dashboard.php:1389
+msgid "Item Not Available"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1136
+#: classes/class-classified-frontend-dashboard.php:1390
+msgid "Oops! Items details not available. Perhaps it was deleted?"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1142
+#: classes/class-classified-frontend-dashboard.php:1396
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1162
+#: classes/class-classified-frontend-dashboard.php:1435
+msgid "Disputed"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1168
+#: classes/class-classified-frontend-dashboard.php:1450
+msgid "COD"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1171
+#: classes/class-classified-frontend-dashboard.php:1453
+msgid "Can't Process Onsite"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1177
+#: classes/class-classified-frontend-dashboard.php:1440
+msgid "Refunded"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1180
+#: classes/class-classified-frontend-dashboard.php:1443
+msgid "Dispute Approved"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1196
+#: classes/class-classified-frontend-dashboard.php:1217
+#: classes/class-classified-frontend-dashboard.php:1227
+#: classes/class-classified-frontend-dashboard.php:1469
+#: classes/class-classified-frontend-dashboard.php:1502
+#: classes/class-classified-frontend-dashboard.php:1523
+#: classes/class-classified-frontend-dashboard.php:1533
+msgid "View Details"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1208
+msgid "Mark As Shipped"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1246
+msgid "Funds added into wallet and currently on hold until"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1275
+#: classes/class-classified-frontend-dashboard.php:1568
+msgid "No Purchase History Found"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1290
+msgid "Purchase History"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1291
+msgid "View all purchases here"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1341
+msgid "Tracking"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1405
+msgid "Information Not Provided Yet"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1481
+msgid "Mark As Received"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1494
+#: classes/class-classified-frontend-dashboard.php:1514
+msgid "Create Dispute"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1543
+msgid "You can create dispute until"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1590
+msgid "My Campaigns"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1591
+msgid "You can View the detail of your campaigns here."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1595
+#, php-format
+msgid "Total Campaigns: %s"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1612
+msgid "My Reviews"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1613
+msgid "You can View the detail of your reviews here."
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1617
+#, php-format
+msgid "Total Reviews: %s"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1633
+msgid "Need Help?"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1637
+msgid "Edit Profile"
+msgstr ""
+
+#: classes/class-classified-frontend-dashboard.php:1640
+#, php-format
+msgid "Avatar Of %s"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:29
+msgid "Dispute Details"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:30
+msgid "Enter The Issue You Are Facing."
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:43
+msgid "Tracking Info"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:44
+msgid "Enter Tracking ID And Courier Information Here."
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:49
+msgid "Request Customer To Rate Your Profile."
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:65
+msgid "Request Seller To Rate Your Profile."
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:83
+msgid "Are You Sure! You Are Processing This Order"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:84
+#: classes/class-classified-frontend-enqueue.php:101
+msgid "Yes! Do It"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:85
+#: classes/class-classified-frontend-enqueue.php:90
+#: classes/class-classified-frontend-enqueue.php:96
+#: classes/class-classified-frontend-enqueue.php:102
+#: classes/class-classified-frontend-enqueue.php:107
+#: classes/class-classified-frontend-enqueue.php:112
+#: classes/class-classified-plugin-setup.php:546
+msgid "No"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:88
+msgid "Are You Sure! This Order Is Shipped?"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:89
+msgid "Yes! It Is"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:94
+msgid "Are You Sure! You Want To Create Dispute Request?"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:95
+msgid "Yes! I Am"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:100
+msgid "Are You Sure! You Want To Mark This Item As Sold"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:105
+msgid "Are You Sure! You Want To Ignore This Request"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:106
+#: classes/class-classified-frontend-enqueue.php:111
+#: classes/class-classified-plugin-setup.php:545
+msgid "Yes"
+msgstr ""
+
+#: classes/class-classified-frontend-enqueue.php:110
+msgid "Are You Sure! You Have Received This Items."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:37
+#: classes/class-classified-plugin-setup.php:833
+msgid "General Ads"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:38
+msgid "General"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:41
+msgid "ADS Post Type For Classified"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:61
+#: classes/class-classified-plugin-setup.php:835
+msgid "Property Ads"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:62
+msgid "Property"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:65
+#: classes/class-classified-plugin-setup.php:89
+msgid "Real Estate Ads Post Type For Classified"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:85
+#: classes/class-classified-plugin-setup.php:834
+msgid "Automotive Ads"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:86
+msgid "Automotive"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:110
+#, php-format
+msgid "%s filter only accept array in return."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:164
+msgctxt "taxonomy general name"
+msgid "Locations"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:165
+msgctxt "taxonomy singular name"
+msgid "Location"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:166
+msgid "Search Locations"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:167
+msgid "All Locations"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:168
+msgid "Parent Location"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:169
+msgid "Parent Location:"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:170
+msgid "Edit Location"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:171
+msgid "Update Location"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:172
+msgid "Add New Location"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:173
+msgid "New Location Name"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:174
+msgid "Locations"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:189
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:190
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:191
+msgid "Search Categories"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:192
+msgid "All Categories"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:193
+msgid "Parent Category"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:194
+msgid "Parent Category:"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:195
+msgid "Edit Category"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:196
+msgid "Update Category"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:197
+msgid "Add New Category"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:198
+msgid "New Category Name"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:199
+msgid "Categories"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:246
+#: classes/class-classified-plugin-setup.php:861
+msgid "Classified Page Settings"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:261
+msgid "Disable Header Top Bar On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:283
+msgid "Disable Header Bottom Bar On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:305
+msgid "Disable Header Search On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:327
+msgid "Full Width Header On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:349
+msgid "Enable Banner On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:371
+msgid "Subtitle For banner On This Page"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:423
+#: classes/class-classified-plugin-setup.php:862
+msgid "Classified General Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:459
+#: classes/class-classified-plugin-setup.php:863
+msgid "Classified Property Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:474
+msgid "Purpose"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:482
+msgid "Sale"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:483
+msgid "Rent"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:492
+msgid "Purpose field is mandatory"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:522
+#: classes/class-classified-plugin-setup.php:864
+msgid "Classified Ad Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:537
+msgid "Can you ship this item?"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:540
+msgid "Enabling shipping increases the chances of selling the item faster."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:555
+msgid "This field is mandatory"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:572
+#: classes/class-classified-plugin-setup.php:635
+msgid "Used"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:573
+#: classes/class-classified-plugin-setup.php:636
+msgid "New"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:582
+#: classes/class-classified-plugin-setup.php:645
+msgid "Condition field is mandatory"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:612
+#: classes/class-classified-plugin-setup.php:860
+msgid "Classified Automotive Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:678
+msgid "Price field is mandatory"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:687
+msgid "Gallery"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:708
+msgid "Address"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:720
+msgid "Address field is mandatory"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:735
+#: classes/class-classified-plugin-setup.php:740
+msgid "Category Icon"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:739
+msgid "You can put fontawesome icon classes."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:803
+msgid "Extra Custom Post Types Into Classified"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:804
+msgid "Enable if you want to add extra custom post types into classified."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:810
+#: classes/class-classified-plugin-setup.php:829
+msgid "Select Post Types"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:813
+msgid "Select custom post types you want to add into classified."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:822
+msgid "Recreate Classified Post Types"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:823
+#: classes/class-classified-plugin-setup.php:850
+msgid "Enable if you want to recreate a classified post type."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:831
+msgid "Select post types which you want to recreate."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:849
+msgid "Recreate Classified Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:856
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:163
+msgid "Select Custom Fields"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:858
+msgid "Select classified custom field which you want to recreate."
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:865
+msgid "Classified Category Icon"
+msgstr ""
+
+#: classes/class-classified-plugin-setup.php:881
+msgid "All Classified Post Types"
+msgstr ""
+
+#: classes/class-classified-theme-widgets.php:25
+#, php-format
+msgid "%s Sidebar"
+msgstr ""
+
+#: classes/class-classified-theme-widgets.php:37
+msgid "Classified Before Footer Columns"
+msgstr ""
+
+#: classes/class-classified-theme-widgets.php:45
+msgid "Classified Footer Column"
+msgstr ""
+
+#: classes/class-classified-theme-widgets.php:53
+msgid "Classified After Footer Columns"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:22
+msgid "Ads Submission"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:39
+msgid "Ads Submission Settings"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:46
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:46
+msgid "Select The Post Type."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:48
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:48
+msgid "Select Classified Post Type of pricing plans you want to show."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:53
+msgid "Submission Sidebar."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:55
+msgid "Enable if you want to show sidebar on submission."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:59
+msgid "Sidebar Live Preview."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:61
+msgid "Enable if you want to show live preview of submission within sidebar."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:68
+msgid "Sidebar Quick Tip."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:70
+msgid "Enable if you want to show quick tip within sidebar."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:77
+msgid "Quick Tip Heading."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:79
+msgid "Quick Tip"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:86
+msgid "Quick Tip Description."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-ads-submission-widget.php:88
+msgid "By Entering additional information your ads get maximum reach"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-author-widget.php:23
+msgid "Author"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:22
+msgid "Classified Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:39
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:56
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:44
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:39
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:52
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:51
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:39
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:39
+msgid "Widget Settings"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:44
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:53
+msgid "Number Of Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:46
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:63
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:60
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:58
+msgid "Style 1"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:47
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:64
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:62
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:59
+msgid "Style 2"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:55
+msgid "Show All Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:56
+msgid "Show 2 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:57
+msgid "Show 3 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:58
+msgid "Show 4 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:59
+msgid "Show 5 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:60
+msgid "Show 6 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:61
+msgid "Show 7 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:62
+msgid "Show 8 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:63
+msgid "Show 9 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-blogs-widget.php:64
+msgid "Show 10 Blogs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:23
+msgid "Browse By"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:61
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:82
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:56
+msgid "Layout"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:70
+msgid "Columns Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:72
+msgid "2 Columns"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:73
+msgid "3 Columns"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:74
+msgid "4 Columns"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:75
+msgid "6 Columns"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:81
+msgid "Grid Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:92
+msgid "Grid Background Color On Hover"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:103
+msgid "Grid Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:114
+msgid "Grid Text Color On Grid Hover"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:126
+msgid "Browse By Tab Text"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:127
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:76
+msgid "Enter tab text here"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:132
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:46
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:70
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:67
+msgid "Post Types"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:133
+msgid "Select Post Types."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:140
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:107
+msgid "Content Type"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:141
+msgid "Select the content type you want to show in tab content."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:143
+msgid "Select Tab Content"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:144
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:145
+msgid "Custom Field Options"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:146
+msgid "Taxonomy Terms With Custom Fields"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:153
+msgid "Select Taxonomies"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:171
+msgid "Max Options"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:177
+msgid "Enter Custom Fields Name"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:185
+msgid "Enter Custom Field Value"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:186
+msgid "Enter the value of entered custom field."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:193
+msgid "Browse By Tabs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-browse-by-widget.php:198
+msgid "Location"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:23
+msgid "Classified Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:50
+#: classes/widgets/class-classified-widget-terms.php:69
+msgid "Select Taxonomy"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:56
+msgid "Enter Term Icon Custom Field Name"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:61
+msgid "Number Of Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:63
+msgid "Show All Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:64
+msgid "Show 4 Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:65
+msgid "Show 8 Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:66
+msgid "Show 12 Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:67
+msgid "Show 16 Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:73
+msgid "Empty Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:75
+msgid "Show Empty Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:76
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:84
+msgid "Grids"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:85
+msgid "List Carousal"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:91
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:260
+msgid "Style Settings"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:99
+msgid "Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-categories-widget.php:107
+msgid "Categories Colors"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:22
+msgid "Featured Ad"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:47
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:71
+msgid "Select Post Types Whom Posts You Want To Show."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:53
+msgid "Style"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:55
+msgid "Sidebar"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:56
+msgid "Masonry"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:62
+msgid "Type Of Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:64
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:80
+msgid "Boosted"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:65
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:82
+msgid "Purchasable"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:66
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:83
+msgid "Latest"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:72
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:165
+msgid "Number Of Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:74
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:167
+msgid "Show All Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:75
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:191
+msgid "Show 2 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:76
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:168
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:192
+msgid "Show 3 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:77
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:169
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:193
+msgid "Show 4 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:78
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:194
+msgid "Show 5 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:79
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:170
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:195
+msgid "Show 6 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:80
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:196
+msgid "Show 7 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:81
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:171
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:197
+msgid "Show 8 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:82
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:198
+msgid "Show 9 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:83
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:199
+msgid "Show 10 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:92
+msgid "Ads Preview Button Text"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:93
+msgid "Start Chat"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:100
+msgid "Show Sidebar"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:108
+msgid "Select The Content Type For Sidebar"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:111
+msgid "Advertisement Card"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:112
+msgid "Shortcode"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:113
+msgid "HTML"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:123
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:78
+msgid "Promotion Background Image"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:132
+msgid "Enter Your Heading"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:133
+msgid "Post Your Ad Now"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:142
+msgid "Enter Your Description"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:143
+msgid "Est minim aute sit nostrud commodo deserunt exercitation."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:152
+msgid "Enter Your URL"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:161
+msgid "Enter Your HTML/ShortCode"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:172
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:212
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:68
+msgid "Promotional Card Settings"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:181
+msgid "Show Website Promotional Card"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:186
+msgid "Promotional Card Count"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:191
+msgid "How many cards you want to show?"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:198
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:223
+msgid "Promotional Card Heading"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:199
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:200
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:224
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:225
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:274
+msgid "Boost Your Business with us"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:207
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:230
+msgid "Promotional Card Description"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:208
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:209
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:231
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:232
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:275
+msgid ""
+"Make some extra money by selling things in your community. Go on its quick and "
+"easy"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:216
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:236
+msgid "Promotional Card Button Text"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:217
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:218
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:237
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:238
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:276
+msgid "Start Now"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:225
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:242
+msgid "Promotional Card Button Link"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:226
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:243
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:277
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:63
+msgid "https://example.com"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:233
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:247
+msgid "Icon For Promotional Card"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:235
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:249
+msgid "Put Promotional Card Icon SVG Here"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:242
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:253
+msgid "Promotional Card Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:250
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:258
+msgid "Promotional Card Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:266
+msgid "Ads Preview Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:271
+msgid "Ads Preview Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:276
+msgid "Ads Preview Button Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-featured-items-widget.php:284
+msgid "Ads Preview Button Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:57
+msgid "Layout Style"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:58
+msgid "Select item layout style."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:61
+msgid "Style 1 ( Focused )"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:63
+msgid "CubeWP Loop Builder"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:77
+msgid "Posts Type"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:78
+msgid "Which Posts you want to show."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:81
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:155
+#: classes/shortcodes/class-classified-items-shortcode.php:60
+msgid "Recommended"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:89
+msgid "Enable Items By Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:96
+msgid "Select The Categories For Item"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:107
+msgid "Recommended Categories"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:108
+msgid "Use recommended categories if available."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:118
+msgid "Enable Items By Meta's"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:125
+msgid "Meta Key"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:126
+msgid "Enter The Meta Key For Item"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:134
+msgid "Meta Value"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:135
+msgid "Enter The Meta Value For Items"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:144
+msgid "Show Items In Tabs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:153
+msgid "First Tab Content"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:156
+msgid "Recent"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:172
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:201
+msgid "Show 12 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:173
+msgid "Show 15 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:174
+msgid "Show 20 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:175
+msgid "Show 25 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:181
+msgid "Enable Load More"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:189
+msgid "Number Of Ads Per Fold"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:200
+msgid "Show 11 Ads"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:217
+msgid "Show Promotional Cards"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:263
+msgid "Promotional Card Position"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:264
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:265
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:281
+msgid "3"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-items-widget.php:269
+msgid "Promotional Cards"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:23
+msgid "Multi Search"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:68
+msgid "Select Post Types Whom Search You Want To Show."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:74
+msgid "Search Tab Text"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:75
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:106
+msgid "Any"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:81
+msgid "Search Tab Info"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:82
+msgid "Items available for shipping will be tagged with"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:83
+msgid "Enter tab Info here"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:84
+msgid "Only works for layout style 2."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:88
+msgid "Search Tab Icon"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:90
+msgid "Enter tab icon class here"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:94
+msgid "Search Tab Container Background Image"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:95
+msgid "Select the background image for the search widget elementor container."
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:98
+msgid "Multi Search Tabs"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:112
+msgid "Homes"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-multi-search-widget.php:118
+msgid "Auto"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:22
+msgid "Pricing Plans"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:39
+msgid "Pricing Plans Settings"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:43
+msgid "Show All Plans"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:54
+msgid "Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:56
+msgid "1 Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:57
+msgid "2 Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:58
+msgid "3 Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:59
+msgid "4 Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-pricing-plans-widget.php:60
+msgid "6 Plans Per Row"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:22
+msgid "Promotional"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:44
+msgid "Promotion Heading"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:45
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:46
+msgid "Quick sell's better when you become a member"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:50
+msgid "Promotion Description"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:51
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:52
+msgid ""
+"See more relevant listings about your business, find what you are looking for "
+"quicker, and much more!"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:56
+msgid "Promotion Button Text"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:57
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:58
+msgid "Sell Now"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:62
+msgid "Promotion Button Link"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:73
+msgid "Promotion Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:82
+msgid "Promotion Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:87
+msgid "Promotion Button Background Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-promotion-widget.php:92
+msgid "Promotion Button Text Color"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:22
+msgid "Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:44
+msgid "Select User Role"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:51
+msgid "Select Order"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:54
+msgid "Ascending"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:55
+msgid "Descending"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:60
+msgid "Show No. of Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:62
+msgid "Show All Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:63
+msgid "Show 3 Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:64
+msgid "Show 4 Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:65
+msgid "Show 5 Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:66
+msgid "Show 6 Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:67
+msgid "Show 8 Reviews"
+msgstr ""
+
+#: classes/elementor-widgets/class-classified-elementor-reviews-widget.php:68
+msgid "Show 9 Reviews"
+msgstr ""
+
+#: classes/shortcodes/class-classified-categories-shortcode.php:121
+#: classes/shortcodes/class-classified-categories-shortcode.php:122
+msgid "See More"
+msgstr ""
+
+#: classes/shortcodes/class-classified-categories-shortcode.php:122
+msgid "See Less"
+msgstr ""
+
+#: classes/shortcodes/class-classified-items-shortcode.php:62
+msgid "All Recent"
+msgstr ""
+
+#: classes/shortcodes/class-classified-items-shortcode.php:279
+msgid "Load More"
+msgstr ""
+
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:31
+msgid "Get Started"
+msgstr ""
+
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:78
+#, php-format
+msgid "/%s Listings"
+msgstr ""
+
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:85
+msgid "/Per Listing"
+msgstr ""
+
+#: classes/shortcodes/class-classified-pricing-plans-shortcode.php:93
+#, php-format
+msgid "Duration: %s"
+msgstr ""
+
+#: classes/shortcodes/class-classified-promotion-shortcode.php:34
+msgid "Promo Background Image"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:72
+#: classes/shortcodes/class-classified-reviews-shortcode.php:73
+#: include/helper.php:973 include/helper.php:976 include/helper.php:987
+#: include/helper.php:988
+msgid "N/A"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:100
+msgid "Verified"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:123
+msgid "sold"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:123
+msgid "items"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:129
+#: classes/shortcodes/class-classified-reviews-shortcode.php:135
+msgid "Response"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:129
+msgid "Rate"
+msgstr ""
+
+#: classes/shortcodes/class-classified-reviews-shortcode.php:135
+msgid "Time"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:54
+#, php-format
+msgid "%u%s Complete"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:69
+msgid "Sorry! There is no fields within this section."
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:119
+msgid "Live Preview"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:154
+msgid "Post anyway"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:157
+msgid "Save changes"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:161
+msgid "Back"
+msgstr ""
+
+#: classes/shortcodes/class-classified-submit-edit-shortcode.php:162
+msgid "Next"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-call-to-action.php:11
+msgid "Classified Call To Action"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-call-to-action.php:46
+#: classes/widgets/class-classified-widget-socials.php:76
+#: classes/widgets/class-classified-widget-terms.php:60
+msgid "Title:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-call-to-action.php:52
+msgid "Button Text:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-call-to-action.php:58
+msgid "Button Icon:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-call-to-action.php:64
+msgid "Button Link:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:11
+msgid "Classified Socials"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:82
+msgid "Facebook:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:88
+msgid "Instagram:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:94
+msgid "Youtube:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:100
+msgid "Linkedin:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-socials.php:106
+msgid "Twitter:"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-terms.php:11
+msgid "Classified Terms"
+msgstr ""
+
+#: classes/widgets/class-classified-widget-terms.php:87
+msgid "Terms Per Page:"
+msgstr ""
+
+#: include/classified-ajax.php:27
+msgid "User Permission Error"
+msgstr ""
+
+#: include/classified-ajax.php:35
+msgid "Item Marked As Sold"
+msgstr ""
+
+#: include/helper.php:95
+msgid "Dummy Loop Layout HTML"
+msgstr ""
+
+#: include/helper.php:216
+msgid "Classified Icon"
+msgstr ""
+
+#: include/helper.php:239
+msgid "You"
+msgstr ""
+
+#: include/helper.php:241 include/helper.php:277
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:132
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:139
+msgid "Your Offer"
+msgstr ""
+
+#: include/helper.php:245 include/helper.php:279
+msgid "Offer"
+msgstr ""
+
+#: include/helper.php:366
+msgid "You Marked This AD As Sold"
+msgstr ""
+
+#: include/helper.php:367 include/helper.php:446
+msgid "Sold"
+msgstr ""
+
+#: include/helper.php:373
+msgid "Pay Now"
+msgstr ""
+
+#: include/helper.php:378
+msgid "Pending Admin Approval"
+msgstr ""
+
+#: include/helper.php:379 include/helper.php:408
+msgid "Boost"
+msgstr ""
+
+#: include/helper.php:385
+msgid "Preview"
+msgstr ""
+
+#: include/helper.php:404
+#, php-format
+msgid "Pay Per Click Price is $%s/per click"
+msgstr ""
+
+#: include/helper.php:405
+#, php-format
+msgid "Pay Per Day Price is $%s/per day"
+msgstr ""
+
+#: include/helper.php:437
+msgid "Edit"
+msgstr ""
+
+#: include/helper.php:454
+msgid "Delete"
+msgstr ""
+
+#: include/helper.php:602
+msgid "Classified -- Dashboard Main"
+msgstr ""
+
+#: include/helper.php:603
+msgid "Classified -- User Profile"
+msgstr ""
+
+#: include/helper.php:605
+msgid "Classified -- Pricing And Packages"
+msgstr ""
+
+#: include/helper.php:606
+msgid "Classified -- Sales"
+msgstr ""
+
+#: include/helper.php:607
+msgid "Classified -- Purchased History"
+msgstr ""
+
+#: include/helper.php:610
+msgid "Classified -- Inbox"
+msgstr ""
+
+#: include/helper.php:622
+msgctxt "cubewp-classified"
+msgid "Sold"
+msgstr ""
+
+#: include/helper.php:623
+#, php-format
+msgid "Sold <span class=\"count\">(%s)</span>"
+msgid_plural "Sold <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/helper.php:718
+msgid "$"
+msgstr ""
+
+#: include/helper.php:853
+msgid "Years"
+msgstr ""
+
+#: include/helper.php:857
+msgid "Months"
+msgstr ""
+
+#: include/helper.php:861
+msgid "Days"
+msgstr ""
+
+#: include/helper.php:906
+msgid "Today"
+msgstr ""
+
+#: include/helper.php:951
+msgid "hr"
+msgstr ""
+
+#: include/helper.php:953
+msgid "1day"
+msgstr ""
+
+#: include/helper.php:955
+msgid "1Week"
+msgstr ""
+
+#: include/helper.php:957
+msgid "1Mth"
+msgstr ""
+
+#: include/helper.php:961
+msgid "Few Minutes"
+msgstr ""
+
+#: include/helper.php:963
+msgid "Few Hours"
+msgstr ""
+
+#: include/helper.php:965
+msgid "Few Days"
+msgstr ""
+
+#: include/helper.php:967
+msgid "Few Week"
+msgstr ""
+
+#: include/helper.php:969
+msgid "Few Months"
+msgstr ""
+
+#: include/helper.php:1373
+msgid "year"
+msgstr ""
+
+#: include/helper.php:1374
+msgid "years"
+msgstr ""
+
+#: include/helper.php:1377
+msgid "month"
+msgstr ""
+
+#: include/helper.php:1378
+msgid "months"
+msgstr ""
+
+#: include/helper.php:1381
+msgid "week"
+msgstr ""
+
+#: include/helper.php:1382
+msgid "weeks"
+msgstr ""
+
+#: include/helper.php:1385
+msgid "day"
+msgstr ""
+
+#: include/helper.php:1386
+msgid "days"
+msgstr ""
+
+#: include/helper.php:1389
+msgid "hour"
+msgstr ""
+
+#: include/helper.php:1390
+msgid "hours"
+msgstr ""
+
+#: include/helper.php:1393
+msgid "minute"
+msgstr ""
+
+#: include/helper.php:1394
+msgid "minutes"
+msgstr ""
+
+#: include/helper.php:1397
+msgid "second"
+msgstr ""
+
+#: include/helper.php:1398
+msgid "seconds"
+msgstr ""
+
+#: include/helper.php:1413
+msgid "ago"
+msgstr ""
+
+#: include/helper.php:1413
+msgid "just now"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:66
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:75
+msgid "Buy Now"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:86
+msgid "Please Install And Activate CubeWP Inbox Addon."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:120
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:158
+msgid "Make an offer"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:124
+msgid "Suggested Offers"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:140
+msgid "Please Enter Your Offer"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:145
+#, php-format
+msgid "Price Must Be Between %s - %s"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:200
+msgctxt "Order status"
+msgid "Shipped"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:207
+msgctxt "cubewp-classified"
+msgid "Shipped"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:212
+#, php-format
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:287
+msgid "Request Created! Please Wait."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:289
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:295
+msgid "Please Try Again"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:292
+msgid "CubeWP Wallet Addon Is Required."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:298
+msgid "Invalid Action"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:301
+msgid "Order Status Updated."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:345
+msgid "Buy Ad Button"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:350
+msgid "Offer Ad Button"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:359
+msgid "Buy And Offer"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:365
+msgid "Make Offers Suggestion"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:366
+msgid "Show offers suggestion in make an offer process."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:372
+msgid "Suggestion Offers Percentage"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:373
+msgid "Enter a percentage number for system to calculate the suggested offers."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:382
+msgid "Min-Max Offers Percentage"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:383
+msgid "Enter a percentage number for minimum and maximum offers."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:439
+msgid "Invalid offer please try again."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:442
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:492
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:510
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:520
+msgid "Something went wrong please try again later."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:445
+msgid "Sorry! You can't send offer on your own ad."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:490
+msgid "Your offer has been sent successfully."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:504
+msgid "Sorry! Please login/register to buy items."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:526
+msgid "Sorry! You can't buy your own item."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:529
+#, php-format
+msgid "Classified Item Product (%s)"
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:559
+msgid "Success! Item successfully added into cart. Redirecting..."
+msgstr ""
+
+#: modules/offer-buy-item/class-classified-offer-buy-item.php:565
+msgid "Please try again later."
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:43
+msgid "Personalization"
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:49
+msgid "Enable Personalization"
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:50
+msgid "Track and store user activity to show personalized items."
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:56
+msgid "Taxonomies Relation"
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:57
+msgid "What relation you want between two or more taxonomies."
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:60
+msgid "Ads Must Contains All Saved Terms And Keywords."
+msgstr ""
+
+#: modules/personalization/class-classified-personalization.php:61
+msgid "Ads With Any Saved Terms And Keyword."
+msgstr ""
+
+#: modules/report/class-classified-report.php:105
+msgid "Accept Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:110
+msgid "Reject Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:119
+#, php-format
+msgid "This Report is %s."
+msgstr ""
+
+#: modules/report/class-classified-report.php:146
+msgid "Reported Post"
+msgstr ""
+
+#: modules/report/class-classified-report.php:160
+msgid "Reported User"
+msgstr ""
+
+#: modules/report/class-classified-report.php:191
+msgid "Sorry! Something went wrong, Please try again later."
+msgstr ""
+
+#: modules/report/class-classified-report.php:199
+msgid "Sorry! You cannot report yourself."
+msgstr ""
+
+#: modules/report/class-classified-report.php:216
+msgid "Sorry! You have already reported this user."
+msgstr ""
+
+#: modules/report/class-classified-report.php:226
+msgid "Sorry! You cannot report your own post."
+msgstr ""
+
+#: modules/report/class-classified-report.php:243
+msgid "Sorry! You have already reported this post."
+msgstr ""
+
+#: modules/report/class-classified-report.php:277
+#, php-format
+msgid "%s Reported %s"
+msgstr ""
+
+#: modules/report/class-classified-report.php:286
+msgid "Success! This post is reported successfully."
+msgstr ""
+
+#: modules/report/class-classified-report.php:292
+msgid "Success! This user is reported successfully."
+msgstr ""
+
+#: modules/report/class-classified-report.php:298
+msgid "Success! Reported successfully."
+msgstr ""
+
+#: modules/report/class-classified-report.php:306
+msgid "Assign Report Form To"
+msgstr ""
+
+#: modules/report/class-classified-report.php:328
+msgid "Reports"
+msgstr ""
+
+#: modules/report/class-classified-report.php:336
+msgctxt "Post type general name"
+msgid "Reports"
+msgstr ""
+
+#: modules/report/class-classified-report.php:337
+msgctxt "Post type singular name"
+msgid "Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:338
+msgctxt "Admin Menu text"
+msgid "Reports"
+msgstr ""
+
+#: modules/report/class-classified-report.php:339
+msgctxt "Add New on Toolbar"
+msgid "Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:340
+msgid "Add Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:341
+msgid "Add New Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:342
+msgid "New Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:343
+msgid "Edit Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:344
+msgid "View Report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:345
+msgid "All Reports"
+msgstr ""
+
+#: modules/report/class-classified-report.php:346
+msgid "Search Reports"
+msgstr ""
+
+#: modules/report/class-classified-report.php:347
+msgid "Parent Reports:"
+msgstr ""
+
+#: modules/report/class-classified-report.php:348
+msgid "No reports found."
+msgstr ""
+
+#: modules/report/class-classified-report.php:349
+msgid "No reports found in Trash."
+msgstr ""
+
+#: modules/report/class-classified-report.php:350
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Report Cover Image"
+msgstr ""
+
+#: modules/report/class-classified-report.php:351
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: modules/report/class-classified-report.php:352
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: modules/report/class-classified-report.php:353
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: modules/report/class-classified-report.php:354
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. Added "
+"in 4.4"
+msgid "Report archives"
+msgstr ""
+
+#: modules/report/class-classified-report.php:355
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when inserting "
+"media into a post). Added in 4.4"
+msgid "Insert into report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:356
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when "
+"viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this report"
+msgstr ""
+
+#: modules/report/class-classified-report.php:357
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter reports list"
+msgstr ""
+
+#: modules/report/class-classified-report.php:358
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing screen. "
+"Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Reports list navigation"
+msgstr ""
+
+#: modules/report/class-classified-report.php:359
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing screen. "
+"Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Reports list"
+msgstr ""
+
+#: modules/report/class-classified-report.php:385
+msgctxt "Post status general name"
+msgid "Accepted"
+msgstr ""
+
+#: modules/report/class-classified-report.php:391
+#, php-format
+msgid "Accepted <span class=\"count\">(%s)</span>"
+msgid_plural "Accepted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/report/class-classified-report.php:394
+msgctxt "Post status general name"
+msgid "Rejected"
+msgstr ""
+
+#: modules/report/class-classified-report.php:400
+#, php-format
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/report/class-classified-report.php:403
+msgctxt "Post status general name"
+msgid "Reported"
+msgstr ""
+
+#: modules/report/class-classified-report.php:409
+#, php-format
+msgid "Reported <span class=\"count\">(%s)</span>"
+msgid_plural "Reported <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/user-verification/class-classified-email-verification.php:43
+msgid "Email Verification"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:49
+msgid "Enable User's Email Verification"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:50
+msgid ""
+"Enable if you want to restrict user to verify their emails before submitting "
+"any cubewp post type form."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:62
+msgid "Security verification failed"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:69
+msgid "Email mismatch, Please enter your correct email"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:72
+msgid "Email Sent. Please check your inbox."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:75
+msgid "Please enter correct email"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:95
+msgid "Please verify your email address"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:96
+#, php-format
+msgid "Please click on the following link to verify your email address: %s"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:102
+msgid "Your email must be verified."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:110
+msgid "Confirm Your Email"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:113
+msgid "Enter your email here"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:116
+msgid "Resend Verification Email"
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:130
+msgid "Email does not exist."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:136
+msgid "Email already verified."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:144
+msgid "Email verified."
+msgstr ""
+
+#: modules/user-verification/class-classified-email-verification.php:146
+msgid "Invalid request."
+msgstr ""

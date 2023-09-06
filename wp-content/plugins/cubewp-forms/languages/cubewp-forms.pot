@@ -1,0 +1,345 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-13 19:04+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: Cridio <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cube/classes/class-cubewp-forms-custom.php:124
+#: cube/classes/class-cubewp-forms-ui.php:69
+msgid "CubeWP Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:132
+msgid "Custom Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:138
+msgid "All Leads"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:172
+msgid "Post"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:174
+msgid "Submitted By"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:175
+msgid "Date"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:176
+msgid "Action"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:205
+msgid "View Submission"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:226
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:214
+msgid "Sorry! Security Verification Failed."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:282
+#: cube/classes/class-cubewp-forms-leads.php:74
+msgid "Lead Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:283
+msgid "Close"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:50
+#: cube/classes/class-cubewp-forms-table.php:58
+#: cube/classes/class-cubewp-forms-ui.php:292
+msgid "Form Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:51
+msgid "Lead ID"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:52
+msgid "User"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:53
+msgid "Single Post (If available)"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:54
+msgid "Date & Time"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:67
+msgid "View Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:68
+#: cube/classes/class-cubewp-forms-table.php:86
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:91
+#: cube/classes/class-cubewp-forms-table.php:109
+msgctxt "List table bulk action"
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:200
+msgid "All Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:92
+msgid "Submit"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:283
+msgid "Success! The submission was successful."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:43
+#: cube/classes/class-cubewp-forms-leads.php:67
+msgid "CubeWP Leads"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:87
+msgid "Information"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:95
+msgid "How to manage leads from frontend?"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:99
+msgid "Try CubeWP Frontend Pro to unlock powerful front-end features."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:102
+msgid "Frontend User Dashboard Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:104
+msgid "Frontend User Profile Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:106
+msgid "Frontend Post Types Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:108
+msgid "Frontend User Signup Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:110
+msgid "Frontend Single-post Template Editor"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:112
+msgid "And several advanced features."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:117
+msgid "Learn More"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:253
+msgid "Form Name:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:256
+msgid "Lead ID:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:259
+msgid "User:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:262
+msgid "Source:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:265
+msgid "Date:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:268
+msgid "Time:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:59
+msgid "Form slug"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:60
+#: cube/classes/class-cubewp-forms-ui.php:315
+msgid "Description"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:61
+msgid "Form Shortcode"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:85
+msgid "Edit"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:70
+msgid "Add New"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:142
+msgid "Save Your Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:154
+msgid "Form's Frontend Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:166
+msgid "Restrict form submission only for logged-in users"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:175
+msgid ""
+"By enabling this option, only logged-in users will be able to submit this form."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:182
+msgid "Display Form name and description"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:191
+msgid ""
+"By enabling this option, form title and form description will be visible on "
+"single page."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:198
+msgid "Form Css ID"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:205
+msgid "This option will add CSS id for this form on submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:212
+msgid "Form Submit Button Text"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:219
+msgid "This option will replace submit button text for this form on submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:226
+msgid "Form Submit Button Class"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:233
+msgid "This option will add class for submit button on form submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:240
+msgid "Form Submit Button Width"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:247
+#, php-format
+msgid ""
+"This option will add width for submit button on form submission. Give width in "
+"% or px."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:254
+msgid "Form Submit Button Position"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:257
+msgid "Center"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:258
+msgid "Left"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:259
+msgid "Right"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:262
+msgid "Select Position"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:267
+msgid "This option will select position for submit button on form submission. "
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:279
+msgid "Basic Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:291
+msgid "Type new group name here.."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:303
+msgid "Set group order"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:304
+msgid "Form Slug"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:314
+msgid "Write group description to identify the group"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:332
+msgid "Field Label"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:335
+msgid "Field Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:338
+msgid "Field Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:342
+msgid "Actions"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:365
+msgid "Edit Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:367
+msgid "Create New Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:383
+msgid "Save"
+msgstr ""

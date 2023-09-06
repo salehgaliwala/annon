@@ -1,0 +1,179 @@
+*{
+	box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .cwp-container.cwp-plans-container{
+        max-width: 540px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .cwp-container.cwp-plans-container{
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .cwp-container.cwp-plans-container{
+        max-width: 960px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cwp-container.cwp-plans-container{
+        max-width: 1140px !important;
+    }
+}
+
+.cwp-plans-container .cwp-col-md-4 {
+    min-width: 300px;
+}
+.cwp-plan {
+    border: #979797 1px solid;
+    background-color: #fff;
+    position: relative;
+    padding: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+.cwp-plan.cwp-hot-plan {
+    border: 1px solid #007bff;
+}
+
+.cwp-plans-image {
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.cwp-plans-image .plan-img {
+    display: flex;
+    align-items: end;
+}
+
+.cwp-plans-image .plan-img img {
+    max-width: 100%;
+}
+
+.cwp-featured-plan {
+    position: absolute;
+    top: 26px;
+    left: -66px;
+    right: 0;
+    width: 233px;
+    text-align: center;
+    background: #dc3545;
+    transform: rotate(311deg);
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 0 8px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.cwp-plan .cwp-plan-title-des h3.cwp-plan-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+	margin:0;
+}
+
+.cwp-plan .cwp-plan-title-des {
+    padding: 13px 0;
+}
+
+.cwp-plan .cwp-plan-title-des p.cwp-plan-des {
+    font-size: 16px;
+	margin:0;
+    color: #666666;
+}
+
+.cwp-plan-type-container {
+    margin: 15px 0px 10px;
+}
+
+.cwp-plan .cwp-plan-type {
+	padding: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: 1px solid #007bff;
+    border-radius: 12px;
+}
+
+.cwp-plan .cwp-plan-price-days {
+    padding: 12px 0;
+}
+
+.cwp-plan .cwp-plan-price-days h2.cwp-plan-price {
+    font-size: 60px;
+    color: #007bff;
+	margin:0;
+    font-weight: 700;
+}
+
+.cwp-plan .cwp-plan-price-days h4.cwp-plan-days {
+    font-size: 22px;
+    font-weight: 500;
+    color: #007bff;
+	margin:0;
+}
+
+.cwp-plan-features ul.cwp-plan-options {
+    list-style: none;
+    padding: 8px 0;
+    line-height: 35px;
+    margin: 0;
+}
+
+.cwp-plan-features ul.cwp-plan-options li.cwp-plan-option {
+	display: flex;
+	align-items: center;
+    font-size: 18px;
+    color: #666666;
+    text-transform: capitalize;
+}
+
+.cwp-plan-features ul.cwp-plan-options li.cwp-plan-option.disabled{
+	color:#d1d1d1;
+}
+
+.cwp-plan .cwp-plan-features ul.cwp-plan-options li svg {
+    margin-right: 5px;
+}
+
+.cwp-plan form {
+    padding: 50px 0 0 0;
+}
+
+.cwp-plan form input.cwp-plan-submit {
+    font-size: 18px;
+    background: #007bff;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+	cursor:pointer;
+}
+
+.cwp-plan form input.cwp-plan-submit:hover {
+	color: #fff;
+	background-color: #363F48;
+}
+
+@media (min-width:768px) and (max-width:990px) {
+    .cwp-plan {
+        padding: 48px 10px;
+    }
+    .cwp-plans-image .plan-img {
+        padding: 0 20px;
+    }
+}

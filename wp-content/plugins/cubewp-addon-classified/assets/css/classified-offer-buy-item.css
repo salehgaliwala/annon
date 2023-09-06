@@ -1,0 +1,78 @@
+.classified-item-buy-now .classified-item-buy-now-btn {
+	width: 100%;
+	margin: 0 0 0 0;
+}
+.classified-item-bid p {
+	margin: 0 0 7px 0;
+}
+.classified-item-bid h5 {
+	font-weight: 600;
+	margin: 0 0 15px 0;
+}
+.classified-item-bid .classified-make-an-offer-btn {
+	width: 100%;
+}
+.classified-item-bid .classified-make-an-offer-container {
+	margin: 15px 0 0 0;
+	border: 1px solid var(--primary-border-color);
+	border-radius: var(--border-radius);
+	padding: 20px;
+	display: none;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-offers button {
+	padding: 5px 10px;
+	margin: 0 10px 0 0;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-offers {
+	margin: 0 0 15px 0;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0 0;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field label {
+	font-size: 30px;
+	line-height: 30px;
+	height: 30px;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field input {
+	-moz-appearance: textfield;
+	border-radius: var(--border-radius-xs);
+	border: 1px solid var(--input-border-color);
+	font-size: 15px;
+	color: var(---input-font-color-500);
+	padding: 5px 10px;
+	min-height: 35px;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field input:focus {
+	outline: none;
+	box-shadow: none;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field .input-group-text {
+	background-color: var(--input-border-color);
+	border: 1px solid var(--input-border-color);
+	border-radius: var(--border-radius-xs);
+	font-size: 15px;
+	padding: 5px 10px;
+	font-weight: 500;
+	font-family: var(--primary-font);
+	min-height: 35px;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary-color);
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field button {
+	padding: 0 30px;
+	height: 35px;
+	line-height: 1;
+	margin: 0 0 0 10px;
+	border-radius: var(--border-radius-xs);
+	min-width: 80px;
+}
+.classified-item-bid .classified-make-an-offer-container .classified-make-an-offer-field button i {
+	font-size: 16px;
+	line-height: 12px;
+	display: block;
+}

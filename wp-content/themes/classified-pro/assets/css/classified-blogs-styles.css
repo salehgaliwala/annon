@@ -1,0 +1,142 @@
+.classified-blogs #classified-blog-banner {
+    background-color: #fcf4ec;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 60px 0;
+}
+
+.classified-blog-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.classified-blog-banner-content h1 {
+    color: var(--black-700);
+    font-size: 31px;
+    line-height: 38px;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+
+.classified-post-grid-content {
+    position: relative;
+}
+
+.classified-post-grid-content-comment span {
+    padding-left: 5px;
+    color: #C3CCD3;
+}
+
+.classified-post-grid-content-comment i.fa-comments {
+    font-size: 16px;
+    color: #C3CCD3;
+}
+
+.classified-post-grid-read-more {
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #C3CCD3;
+    color: #C3CCD3;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.classified-post-grid-content-comment {
+    bottom: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.classified-post-grid {
+    background: var(--white-700);
+    box-shadow: 0 1px 3px #0000001c;
+    padding: 15px 15px 25px 15px;
+    margin: 0 0 30px 0;
+    min-height: calc(100% - 30px);
+    border-radius: 10px;
+}
+
+.classified-post-grid .classified-post-grid-thumbnail {
+    position: relative;
+    box-shadow: 0 0 2px #7d91947a;
+    border: 0 solid var(--white-700);
+    height: 340px;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.classified-post-grid .classified-post-grid-thumbnail img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 1;
+    background: #f4f4f4;
+    object-fit: contain;
+}
+
+.classified-post-grid .classified-post-grid-thumbnail .classified-post-grid-term {
+    background: var(--a-hover-color);
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    bottom: 15px;
+    font-weight: bold;
+    font-size: 11px;
+    right: 25px;
+    color: var(--secondary-font-color);
+    z-index: 1;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.classified-post-grid .classified-post-grid-content h2 {
+    text-align: center;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 28px;
+    line-height: 1.3em;
+}
+
+.classified-post-grid .classified-post-grid-content p {
+    max-width: 80%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: #768791;
+    line-height: 1.5em;
+    letter-spacing: 0.17px;
+}
+
+.classified-post-grid .classified-post-grid-content .classified-post-grid-info {
+    margin: 0 auto;
+}
+
+.classified-post-grid .classified-post-grid-content p span {
+    font-size: 12px;
+}
+
+.classified-post-grid .classified-post-grid-content p > span,
+.classified-post-grid .classified-post-grid-content p a:not(:hover) span {
+    color: #C3CCD3;
+}
+
+.classified-blogs {
+    margin-bottom: 100px;
+}
+
+.classified-pagination {
+    margin: 35px 0 0 0 !important
+}
+
+.classified-pagination .nav-links {
+    margin: 0 0 0 0 !important;
+}

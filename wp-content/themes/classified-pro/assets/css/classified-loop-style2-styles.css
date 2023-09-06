@@ -1,0 +1,139 @@
+.classified-item-style-2 {
+    background: var(--white-700);
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: var(--border-radius-xs);
+    transition: var(--transition);
+    margin: 0 0 30px 0;
+}
+.classified-item-style-2:hover {
+    box-shadow: none;
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags {
+    position: relative;
+}
+.classified-item-style-2 .classified-item-style-2-media {
+    height: 180px;
+    width: 100%;
+}
+.classified-item-style-2 .classified-item-style-2-media img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: var(--border-radius-xs);
+    border-top-right-radius: var(--border-radius-xs);
+    object-fit: cover;
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags .classified-item-style-2-like {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    background: #00000040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    z-index: 2;
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags .classified-item-style-2-like i {
+    font-size: 11px;
+    color: var(--white-700);
+    text-align: center;
+    line-height: 11px;
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags .classified-item-style-2-tags {
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+    z-index: 2;
+    transition: var(--transition);
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags .classified-item-style-2-tags .classified-item-style-2-tag {
+    background: #2c3e50ed;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 11px;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: var(--primary-font);
+    line-height: 16px;
+    color: var(--white-700);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.classified-item-style-2:hover .classified-item-style-2-media-and-tags .classified-item-style-2-tags .classified-item-style-2-tag {
+    background: #0005;
+}
+.classified-item-style-2 .classified-item-style-2-media-and-tags .classified-item-style-2-recommended {
+    position: absolute;
+    bottom: 11px;
+    left: 11px;
+    padding: 4px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black-700);
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 15px;
+    background: var(--cyan-700);
+}
+.classified-item-style-2 .classified-item-style-2-content {
+    padding: 8px 11px;
+    border: 1px solid transparent;
+    border-top: none;
+    transition: var(--transition);
+    position: relative;
+}
+.classified-item-style-2:hover .classified-item-style-2-content {
+    border-color: var(---primary-border-color);
+}
+.classified-item-style-2 .classified-item-style-2-content .classified-item-style-2-title {
+    color: var(--grid-text-color);
+    font-weight: 500;
+    margin: 0 0 2px 0;
+    line-height: 21px;
+}
+.classified-item-style-2 .classified-item-style-2-content .classified-item-style-2-price {
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+.classified-item-style-2 .classified-item-style-2-content .classified-item-style-2-content-term {
+    position: relative;
+    z-index: 2;
+}
+.classified-item-style-2 .classified-item-style-2-content .classified-item-style-2-content-term text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+.classified-item-style-2 .classified-item-style-2-content .classified-item-style-2-content-term a:not(:hover) text {
+    color: var(---grid-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
