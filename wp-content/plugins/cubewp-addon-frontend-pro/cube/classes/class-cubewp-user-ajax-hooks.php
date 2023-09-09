@@ -613,7 +613,7 @@ class CubeWp_User_Ajax_Hooks{
                                 array(
                                     'type'        =>  'error',
                                     'msg'         =>  sprintf(__('Insufficient post credit.', 'cubewp-frontend'), get_post_type($post_id)),
-                                    'redirectURL' =>  get_permalink($post_id)
+                                    'redirectURL' =>  get_permalink(2)
                                 )
                             );	
                     }
